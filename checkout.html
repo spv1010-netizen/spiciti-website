@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spiciti Checkout</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="checkout">
+<header class="site-header">
+  <div class="container nav-shell">
+    <a class="brand" href="index.html" aria-label="Spiciti home">
+      <img src="logo.jpeg" alt="Spiciti logo">
+      <span class="brand-wordmark">SPICITI</span>
+    </a>
+
+    <button class="menu-toggle" type="button" data-menu-toggle aria-label="Open navigation menu" aria-expanded="false" aria-controls="main-nav">
+      Menu
+    </button>
+
+    <nav class="main-nav" id="main-nav" data-nav>
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About Us</a>
+      <a href="products.html">Products</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+
+    <a class="search-link" href="products.html#product-search" aria-label="Search products">Search</a>
+
+    <a class="cart-link" href="cart.html" aria-label="View cart">
+      Cart
+      <span class="cart-count" data-cart-count>0</span>
+    </a>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container narrow">
+      <span class="section-label center">Checkout</span>
+      <h1 class="section-title center">Scan, pay, and send your order</h1>
+      <p class="section-copy center">
+        Use the UPI QR code below to complete payment, then send the order with its payment status.
+      </p>
+    </div>
+  </section>
+
+  <section class="checkout-section">
+    <div class="container checkout-layout">
+      <div class="checkout-card">
+        <div class="checkout-status-row">
+          <span class="status-pill" data-payment-status>Awaiting Payment</span>
+          <strong data-order-reference>Order Ref: -</strong>
+        </div>
+
+        <div class="upi-qr-card">
+          <img class="upi-qr-image" data-upi-qr alt="UPI payment QR code">
+        </div>
+
+        <div class="payment-details">
+          <div class="payment-detail">
+            <span>UPI ID</span>
+            <strong data-upi-id>-</strong>
+          </div>
+          <div class="payment-detail">
+            <span>Payee</span>
+            <strong data-upi-name>-</strong>
+          </div>
+          <div class="payment-detail">
+            <span>Amount</span>
+            <strong data-upi-amount>-</strong>
+          </div>
+        </div>
+
+        <div class="checkout-actions-stack">
+          <a class="button button-solid full-width" href="#" data-upi-link>Open in UPI App</a>
+          <button class="button button-soft full-width" type="button" data-send-paid-order>Send Order</button>
+          <button class="button button-soft full-width" type="button" data-send-pending-order>Send Pending Order</button>
+        </div>
+
+        <p class="checkout-note">
+          Automatic payment verification is not available on a pure static website. This version sends the order immediately with the payment status selected by the customer.
+        </p>
+      </div>
+
+      <aside class="checkout-summary-card">
+        <h2>Order Summary</h2>
+        <div data-checkout-summary></div>
+      </aside>
+    </div>
+  </section>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-shell">
+      <div class="footer-grid">
+        <section class="footer-column">
+          <h2 class="footer-heading">Disclaimer</h2>
+          <p class="footer-copy">
+            The product visuals, card layouts, and catalog presentation on this website are for storefront browsing and
+            brand reference. Final product imagery, copy, and packaging notes can be updated later to match your
+            complete catalog.
+          </p>
+        </section>
+
+        <section class="footer-column footer-column-brand">
+          <h2 class="footer-heading">Spiciti</h2>
+          <p class="footer-copy">
+            <strong>Use this area for your brand story.</strong> You can later replace this text with a short note about
+            sourcing, freshness, quality, signature blends, or the promise you want customers to remember.
+          </p>
+        </section>
+
+        <section class="footer-column footer-column-contact">
+          <h2 class="footer-heading">Contact Us</h2>
+          <a class="footer-contact-row" href="#" data-contact-phone-link>
+            <span class="footer-contact-icons" aria-hidden="true">
+              <span class="footer-icon footer-icon-phone footer-icon-plain"></span>
+              <span class="footer-icon footer-icon-whatsapp footer-icon-plain"></span>
+            </span>
+            <span data-contact-phone>+91 90746 41652</span>
+          </a>
+          <a class="footer-contact-row" href="mailto:Info@spiciti.in">
+            <span class="footer-icon footer-icon-mail footer-icon-plain" aria-hidden="true"></span>
+            <span>Info@spiciti.in</span>
+          </a>
+
+          <div class="footer-follow">
+            <h3 class="footer-subheading">Follow Us</h3>
+            <div class="social-links footer-social-links" data-social-links></div>
+          </div>
+
+          <div class="footer-actions">
+            <button class="button button-soft" type="button" data-contact-toggle aria-expanded="false">Get In Touch</button>
+          </div>
+        </section>
+      </div>
+
+      <div class="contact-form-panel footer-contact-panel" data-contact-panel hidden>
+        <form class="contact-form" data-contact-form>
+          <div class="contact-form-grid">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Your name" required>
+            </label>
+            <label>
+              <span>Email or Phone</span>
+              <input type="text" name="replyTo" placeholder="you@example.com or +91..." required>
+            </label>
+          </div>
+          <label>
+            <span>Enquiry</span>
+            <textarea name="message" rows="4" placeholder="Tell us what you would like to know..." required></textarea>
+          </label>
+
+          <div class="contact-actions">
+            <button class="button button-soft" type="submit">Send Enquiry</button>
+            <a class="button button-solid" href="#" data-contact-whatsapp>WhatsApp Us</a>
+          </div>
+        </form>
+      </div>
+
+      <p class="footer-rights">&copy; <span data-year></span> Spiciti. All rights reserved.</p>
+    </div>
+  </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
