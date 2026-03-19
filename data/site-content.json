@@ -1,5 +1,38 @@
 {
-  "catalog": [],
+  "catalog": [
+    {
+      "id": "cardamom-7mm",
+      "name": "Cardamom 7mm",
+      "category": "Spices",
+      "description": "Small aromatic pods with sweet, intense flavor profile",
+      "badge": "New",
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/cardamom-7mm-1-2a8d4ec0.jpg"
+      ],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 975
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 1950
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 3900
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 975,
+      "unit": "250g"
+    }
+  ],
   "reviews": [
     {
       "id": "anjana-r",
