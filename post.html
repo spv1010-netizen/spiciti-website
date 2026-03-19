@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Full post detail | Spiciti">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.spiciti.in/post.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Spiciti">
+<meta property="og:title" content="Post | Spiciti">
+<meta property="og:description" content="Read full recipes, videos, and blog posts from Spiciti.">
+<meta property="og:url" content="https://www.spiciti.in/post.html">
+<meta property="og:image" content="https://www.spiciti.in/images/hero.jpeg">
+<meta property="og:image:alt" content="Spiciti recipe or blog post">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@spiciti">
+<meta name="twitter:title" content="Post | Spiciti">
+<meta name="twitter:description" content="Read full recipes, videos, and blog posts from Spiciti.">
+<meta name="twitter:image" content="https://www.spiciti.in/images/hero.jpeg">
+<title>Post | Spiciti</title>
+<link rel="icon" type="image/jpeg" href="images/logo.jpeg">
+<link rel="stylesheet" href="style.css">
+<style>
+  .post-detail {
+    padding: 3rem 0 5rem;
+  }
+  .post-detail-inner {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  .post-back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--accent);
+    font-size: 0.92rem;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 2rem;
+  }
+  .post-back-link:hover {
+    text-decoration: underline;
+  }
+  .post-category-badge {
+    display: inline-block;
+    background: var(--accent);
+    color: var(--black);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.28rem 0.9rem;
+    border-radius: 999px;
+    margin-bottom: 1rem;
+  }
+  .post-detail-date {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.75rem;
+  }
+  .post-detail-title {
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    font-weight: 800;
+    line-height: 1.2;
+    color: var(--black);
+    margin-bottom: 1.25rem;
+  }
+  .post-detail-media {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    background: var(--surface);
+    aspect-ratio: 16 / 9;
+  }
+  .post-detail-media iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+  }
+  .post-detail-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .post-video-thumb-link {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 2rem;
+  }
+  .post-video-thumb-wrap {
+    position: relative;
+    margin-bottom: 0;
+    cursor: pointer;
+    transition: transform 240ms ease;
+  }
+  .post-video-thumb-link:hover .post-video-thumb-wrap {
+    transform: scale(1.01);
+  }
+  .post-video-play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.65);
+    transition: background 200ms ease, transform 200ms ease;
+    pointer-events: none;
+  }
+  .post-video-play-btn::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-width: 14px 0 14px 26px;
+    border-color: transparent transparent transparent #ffffff;
+  }
+  .post-video-thumb-link:hover .post-video-play-btn {
+    background: rgba(16, 201, 160, 0.9);
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+  .post-video-yt-badge {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background: rgba(0,0,0,0.72);
+    color: #fff;
+    font-size: 0.82rem;
+    font-weight: 700;
+    padding: 0.3rem 0.85rem;
+    border-radius: 999px;
+    pointer-events: none;
+    letter-spacing: 0.03em;
+  }
+  .post-detail-excerpt {
+    font-size: 1.1rem;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  .post-detail-body {
+    font-size: 1rem;
+    color: var(--text);
+    line-height: 1.85;
+    white-space: pre-line;
+  }
+  .post-not-found {
+    padding: 4rem 1rem;
+    text-align: center;
+    color: var(--muted);
+  }
+  .post-not-found a {
+    color: var(--accent);
+  }
+</style>
+</head>
+<body data-page="post">
+<header class="site-header">
+  <div class="container nav-shell">
+
+    <a class="brand" href="index.html" aria-label="Spiciti home">
+      <img src="images/logo.jpeg" alt="Spiciti logo">
+      <span class="brand-wordmark">SPICITI</span>
+    </a>
+
+    <button class="menu-toggle" type="button" data-menu-toggle aria-label="Open navigation menu" aria-expanded="false" aria-controls="main-nav">
+      Menu
+    </button>
+
+    <nav class="main-nav" id="main-nav" data-nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="products.html">Products</a>
+      <a class="is-active" href="recipes.html">Recipes</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+
+    <a class="search-link" href="products.html#product-search" aria-label="Search products">Search</a>
+
+    <a class="cart-link" href="cart.html" aria-label="View cart">
+      Cart
+      <span class="cart-count" data-cart-count>0</span>
+    </a>
+  </div>
+</header>
+
+<main>
+  <section class="post-detail">
+    <div class="container">
+      <div class="post-detail-inner" data-post-detail></div>
+    </div>
+  </section>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-shell">
+      <div class="footer-grid">
+        <section class="footer-column">
+          <h2 class="footer-heading">Disclaimer</h2>
+          <p class="footer-copy">
+            Product images may display glass bottles for presentation only.
+            All items are actually packed and delivered in <b>eco-friendly, sustainable packets,</b>
+            reflecting our commitment to <b>environmentally responsible packaging.</b>
+          </p>
+        </section>
+
+        <section class="footer-column footer-column-brand">
+          <h2 class="footer-heading">Spiciti</h2>
+          <p class="footer-copy">
+            <strong>Experience bold, authentic flavours with Spiciti.</strong>
+            From freshly ground spices and masalas to <strong>handpicked dry fruits, nuts, and floral &amp; herbal teas</strong>,
+            every product is crafted to deliver natural freshness, rich aroma, and unforgettable taste.
+            Pure ingredients, real flavour&mdash;just the way it should be.
+          </p>
+        </section>
+
+        <section class="footer-column footer-column-contact">
+          <h2 class="footer-heading">Contact Us</h2>
+          <a class="footer-contact-row" href="#" data-contact-phone-link>
+            <span class="footer-contact-icons" aria-hidden="true">
+              <span class="footer-icon footer-icon-phone footer-icon-plain"></span>
+              <span class="footer-icon footer-icon-whatsapp footer-icon-plain"></span>
+            </span>
+            <span data-contact-phone>+91 90746 41652</span>
+          </a>
+          <a class="footer-contact-row" href="mailto:Info@spiciti.in">
+            <span class="footer-icon footer-icon-mail footer-icon-plain" aria-hidden="true"></span>
+            <span>Info@spiciti.in</span>
+          </a>
+
+          <div class="footer-follow">
+            <h3 class="footer-subheading">Follow Us</h3>
+            <div class="social-links footer-social-links" data-social-links></div>
+          </div>
+
+          <div class="footer-actions">
+            <button class="button button-soft" type="button" data-contact-toggle aria-expanded="false">Get In Touch</button>
+          </div>
+        </section>
+      </div>
+
+      <div class="contact-form-panel footer-contact-panel" data-contact-panel hidden>
+        <form class="contact-form" data-contact-form>
+          <div class="contact-form-grid">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Your name" required>
+            </label>
+            <label>
+              <span>Email or Phone</span>
+              <input type="text" name="replyTo" placeholder="you@example.com or +91..." required>
+            </label>
+          </div>
+          <label>
+            <span>Enquiry</span>
+            <textarea name="message" rows="4" placeholder="Tell us what you would like to know..." required></textarea>
+          </label>
+
+          <div class="contact-actions">
+            <button class="button button-soft" type="submit">Send Enquiry</button>
+            <a class="button button-solid" href="#" data-contact-whatsapp>WhatsApp Us</a>
+          </div>
+        </form>
+      </div>
+
+      <p class="footer-rights">&copy; <span data-year></span> Spiciti. All rights reserved.</p>
+    </div>
+  </footer>
+</main>
+
+<script src="script.js"></script>
+<script>
+(function () {
+  var container = document.querySelector("[data-post-detail]");
+  if (!container) return;
+
+  var params = new URLSearchParams(window.location.search);
+  var postId = (params.get("id") || "").trim();
+
+  var posts = typeof getPosts === "function" ? getPosts() : [];
+  var post = posts.find(function (p) { return p.id === postId; });
+
+  if (!post) {
+    container.innerHTML =
+      '<div class="post-not-found">' +
+        '<p>Post not found. <a href="recipes.html">&larr; Back to Recipes &amp; Blog</a></p>' +
+      '</div>';
+    return;
+  }
+
+  // Update page title
+  document.title = post.title + " | Spiciti";
+
+  var formattedDate = "";
+  if (post.date) {
+    try {
+      formattedDate = new Date(post.date + "T00:00:00").toLocaleDateString("en-IN", {
+        year: "numeric", month: "long", day: "numeric"
+      });
+    } catch (e) {
+      formattedDate = post.date;
+    }
+  }
+
+  var mediaHtml = "";
+  var ytId = typeof getYouTubeId === "function" ? getYouTubeId(post.videoUrl) : "";
+  if (ytId) {
+    var thumbUrl = "https://img.youtube.com/vi/" + ytId + "/hqdefault.jpg";
+    var watchUrl = "https://www.youtube.com/watch?v=" + ytId;
+    mediaHtml =
+      '<a class="post-video-thumb-link" href="' + watchUrl + '" target="_blank" rel="noopener noreferrer" aria-label="Watch ' + escapeHtml(post.title) + ' on YouTube">' +
+        '<div class="post-detail-media post-video-thumb-wrap">' +
+          '<img src="' + escapeHtml(thumbUrl) + '" alt="' + escapeHtml(post.title) + '" onerror="this.src=this.src.replace(\'hqdefault\',\'mqdefault\')">' +
+          '<span class="post-video-play-btn" aria-hidden="true"></span>' +
+          '<span class="post-video-yt-badge">▶ Watch on YouTube</span>' +
+        '</div>' +
+      '</a>';
+  } else if (post.image && /^data:image\//.test(post.image)) {
+    mediaHtml =
+      '<div class="post-detail-media">' +
+        '<img src="' + post.image + '" alt="' + escapeHtml(post.title) + '">' +
+      '</div>';
+  }
+
+  container.innerHTML =
+    '<span class="post-category-badge">' + escapeHtml(post.category) + '</span>' +
+    (formattedDate ? '<p class="post-detail-date">' + escapeHtml(formattedDate) + '</p>' : "") +
+    '<h1 class="post-detail-title">' + escapeHtml(post.title) + '</h1>' +
+    mediaHtml +
+    '<p class="post-detail-excerpt">' + escapeHtml(post.excerpt) + '</p>' +
+    (post.body ? '<div class="post-detail-body">' + escapeHtml(post.body) + '</div>' : "") +
+    '<a class="post-back-link" href="recipes.html" style="margin-top:2rem;">\u2190 Back to Recipes &amp; Blog</a>';
+}());
+</script>
+</body>
+</html>
