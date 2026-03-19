@@ -1,6 +1,2556 @@
 {
   "catalog": [
     {
+      "id": "cinnamon-cylon",
+      "name": "Cinnamon Cylon",
+      "category": "Spices",
+      "description": "Ceylon cinnamon with mild sweetness and delicate spice notes",
+      "badge": "New",
+      "art": "Spices",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 462
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 925
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1850
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 462,
+      "unit": "250g"
+    },
+    {
+      "id": "star-anise",
+      "name": "Star Anise",
+      "category": "Spices",
+      "description": "Star-shaped spice with sweet, licorice-like aromatic flavor",
+      "badge": "New",
+      "art": "Spices",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 287
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 575
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1150
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 287,
+      "unit": "250g"
+    },
+    {
+      "id": "nutmeg-nutmeg",
+      "name": "Nutmeg",
+      "category": "Spices",
+      "description": "Whole nutmeg with rich, deep, sweet-spicy flavor notes",
+      "badge": "New",
+      "art": "Spices",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 187
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 375
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 750
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 187,
+      "unit": "250g"
+    },
+    {
+      "id": "mace-whole",
+      "name": "Mace Whole",
+      "category": "Spices",
+      "description": "Delicate mace blades offering subtle, warm spice complexity",
+      "badge": "New",
+      "art": "Spices",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 747
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 1495
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 2990
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 747,
+      "unit": "250g"
+    },
+    {
+      "id": "cinnamon-roll",
+      "name": "Cinnamon Roll",
+      "category": "Spices",
+      "description": "Curled cinnamon sticks with warm, sweet woody aroma",
+      "badge": "New",
+      "art": "Spices",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 237
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 475
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 950
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 237,
+      "unit": "250g"
+    },
+    {
+      "id": "black-pepper-bold",
+      "name": "Black Pepper Bold (Extra Bold)",
+      "category": "Spices",
+      "description": "Extra bold peppercorns delivering powerful, sharp heat intensity",
+      "badge": "New",
+      "art": "Spices",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 302
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 605
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1210
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 302,
+      "unit": "250g"
+    },
+    {
+      "id": "fennel-seed",
+      "name": "Fennel Seed",
+      "category": "Spices",
+      "description": "Sweet fennel seeds with refreshing, mild licorice flavor",
+      "badge": "New",
+      "art": "Spices",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 82
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 165
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 330
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 82,
+      "unit": "250g"
+    },
+    {
+      "id": "dry-lemon",
+      "name": "Dry Lemon",
+      "category": "Spices",
+      "description": "Zesty dried lemon adding tangy citrus depth to dishes",
+      "badge": "New",
+      "art": "Spices",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 162
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 325
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 650
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 162,
+      "unit": "250g"
+    },
+    {
+      "id": "dry-ginger",
+      "name": "Dry Ginger",
+      "category": "Spices",
+      "description": "Sun-dried ginger delivering sharp, earthy spice warmth",
+      "badge": "New",
+      "art": "Spices",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 187
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 375
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 750
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 187,
+      "unit": "250g"
+    },
+    {
+      "id": "cloves-kerala",
+      "name": "Cloves Kerala",
+      "category": "Spices",
+      "description": "Kerala cloves packed with strong, warming aromatic oils",
+      "badge": "New",
+      "art": "Spices",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 412
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 825
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1650
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 412,
+      "unit": "250g"
+    },
+    {
+      "id": "black-bold",
+      "name": "Black Pepper Bold",
+      "category": "Spices",
+      "description": "Bold Malabar pepper with intense, fiery flavor kick",
+      "badge": "Best Seller",
+      "art": "Spices",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 277
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 555
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1110
+        }
+      ],
+      "featured": true,
+      "inStock": true,
+      "price": 277,
+      "unit": "250g"
+    },
+    {
+      "id": "black-pepper",
+      "name": "Black pepper",
+      "category": "Spices",
+      "description": "Sharp, pungent peppercorns adding heat to every dish",
+      "badge": "New",
+      "art": "Spices",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 225
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 450
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 900
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 225,
+      "unit": "250g"
+    },
+    {
+      "id": "9mm-cardamom",
+      "name": "9mm Cardamom",
+      "category": "Spices",
+      "description": "Large premium pods with rich, lingering sweet aroma",
+      "badge": "New",
+      "art": "Spices",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 1172
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 2345
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 4690
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 1172,
+      "unit": "250g"
+    },
+    {
+      "id": "8mm-cardamom",
+      "name": "8mm Cardamom",
+      "category": "Spices",
+      "description": "Bold green pods offering warm, fragrant cardamom notes",
+      "badge": "New",
+      "art": "Spices",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 1075
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 2150
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 4300
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 1075,
+      "unit": "250g"
+    },
+    {
+      "id": "thyme-leaf-dh",
+      "name": "Thyme Leaf (DH)",
+      "category": "Herbs",
+      "description": "Thyme leaves offering subtle, earthy, warm herbal flavor",
+      "badge": "New",
+      "art": "Herbs",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 187
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 375
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 750
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 187,
+      "unit": "250g"
+    },
+    {
+      "id": "oregano-leafs-dh",
+      "name": "Oregano Leafs (DH)",
+      "category": "Herbs",
+      "description": "Oregano leaves with bold, earthy and slightly bitter taste",
+      "badge": "New",
+      "art": "Herbs",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 162
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 325
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 650
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 162,
+      "unit": "250g"
+    },
+    {
+      "id": "mint-leafs-dh",
+      "name": "Mint Leafs (DH)",
+      "category": "Herbs",
+      "description": "Dried mint leaves delivering cool, refreshing herbal notes",
+      "badge": "New",
+      "art": "Herbs",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 150
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 300
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 600
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 150,
+      "unit": "250g"
+    },
+    {
+      "id": "kasuri-methi-dh",
+      "name": "Kasuri Methi(DH)",
+      "category": "Herbs",
+      "description": "Kasuri methi leaves with rich, slightly bitter aroma",
+      "badge": "New",
+      "art": "Herbs",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 175
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 350
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 700
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 175,
+      "unit": "250g"
+    },
+    {
+      "id": "rosemary-dh",
+      "name": "Rosemary (DH)",
+      "category": "Herbs",
+      "description": "Woody rosemary leaves with strong, pine-like aromatic flavor",
+      "badge": "New",
+      "art": "Herbs",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 175
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 350
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 700
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 175,
+      "unit": "250g"
+    },
+    {
+      "id": "parsely-dh",
+      "name": "Parsely (DH)",
+      "category": "Herbs",
+      "description": "Dried parsley adding fresh, mild herbal flavor touch",
+      "badge": "New",
+      "art": "Herbs",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 200
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 400
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 800
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 200,
+      "unit": "250g"
+    },
+    {
+      "id": "basil-leafs-dh",
+      "name": "Basil Leafs (DH)",
+      "category": "Herbs",
+      "description": "Dried basil leaves with mild, sweet herbal aroma",
+      "badge": "New",
+      "art": "Herbs",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 162
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 325
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 650
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 162,
+      "unit": "250g"
+    },
+    {
+      "id": "earl-grey",
+      "name": "Earl Grey Black Tea",
+      "category": "Floral & Herbal Tea",
+      "description": "Classic black tea with citrusy bergamot aromatic notes",
+      "badge": "New",
+      "art": "Floral & Herbal Tea",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 600
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 1200
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 2400
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 600,
+      "unit": "250g"
+    },
+    {
+      "id": "weight-tea",
+      "name": "Weight Loss Tea",
+      "category": "Floral & Herbal Tea",
+      "description": "Light herbal tea supporting metabolism and weight management",
+      "badge": "New",
+      "art": "Floral & Herbal Tea",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 572
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 1145
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 2290
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 572,
+      "unit": "250g"
+    },
+    {
+      "id": "sleep-tea",
+      "name": "Sleep Assist Tea",
+      "category": "Floral & Herbal Tea",
+      "description": "Calming herbal blend designed to promote restful sleep",
+      "badge": "New",
+      "art": "Floral & Herbal Tea",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 975
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 1950
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 3900
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 975,
+      "unit": "250g"
+    },
+    {
+      "id": "rose-buds",
+      "name": "Rose Buds",
+      "category": "Floral & Herbal Tea",
+      "description": "Dried rose buds with delicate floral aroma and taste",
+      "badge": "New",
+      "art": "Floral & Herbal Tea",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 750
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 1500
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 3000
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 750,
+      "unit": "250g"
+    },
+    {
+      "id": "nettle-green",
+      "name": "Nettle Leaf Green",
+      "category": "Floral & Herbal Tea",
+      "description": "Nettle leaves offering mild, grassy, nutrient-rich herbal infusion",
+      "badge": "New",
+      "art": "Floral & Herbal Tea",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 600
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 1200
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 2400
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 600,
+      "unit": "250g"
+    },
+    {
+      "id": "moringa-dust",
+      "name": "Moringa leaf Dust",
+      "category": "Floral & Herbal Tea",
+      "description": "Fine moringa powder packed with nutrients and earthy taste",
+      "badge": "New",
+      "art": "Floral & Herbal Tea",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 87
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 175
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 350
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 87,
+      "unit": "250g"
+    },
+    {
+      "id": "mint-tea",
+      "name": "Mint Green Tea",
+      "category": "Floral & Herbal Tea",
+      "description": "Refreshing green tea infused with cooling mint flavor",
+      "badge": "New",
+      "art": "Floral & Herbal Tea",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 497
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 995
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1990
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 497,
+      "unit": "250g"
+    },
+    {
+      "id": "men-s-tea",
+      "name": "Men's Health Tea",
+      "category": "Floral & Herbal Tea",
+      "description": "Herbal blend crafted to support men’s daily wellness",
+      "badge": "New",
+      "art": "Floral & Herbal Tea",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 747
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 1495
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 2990
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 747,
+      "unit": "250g"
+    },
+    {
+      "id": "lavender-buds",
+      "name": "Lavender Buds",
+      "category": "Floral & Herbal Tea",
+      "description": "Fragrant lavender buds with calming floral aroma notes",
+      "badge": "New",
+      "art": "Floral & Herbal Tea",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 1000
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 2000
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 4000
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 1000,
+      "unit": "250g"
+    },
+    {
+      "id": "kadak-tea",
+      "name": "Kadak Masala Tea",
+      "category": "Floral & Herbal Tea",
+      "description": "Strong masala tea with bold spices and rich taste",
+      "badge": "New",
+      "art": "Floral & Herbal Tea",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 220
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 440
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 880
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 220,
+      "unit": "250g"
+    },
+    {
+      "id": "jasmine-tea",
+      "name": "Jasmine Green Tea",
+      "category": "Floral & Herbal Tea",
+      "description": "Green tea blended with delicate jasmine floral aroma",
+      "badge": "New",
+      "art": "Floral & Herbal Tea",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 550
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 1100
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 2200
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 550,
+      "unit": "250g"
+    },
+    {
+      "id": "hibiscus-tea",
+      "name": "Hibiscus Tea",
+      "category": "Floral & Herbal Tea",
+      "description": "Hibiscus petals delivering tangy, refreshing, antioxidant-rich infusion",
+      "badge": "Best Seller",
+      "art": "Floral & Herbal Tea",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 375
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 750
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1500
+        }
+      ],
+      "featured": true,
+      "inStock": true,
+      "price": 375,
+      "unit": "250g"
+    },
+    {
+      "id": "ginger-tea",
+      "name": "Ginger Black Tea",
+      "category": "Floral & Herbal Tea",
+      "description": "Ginger-infused black tea with warming, spicy kick",
+      "badge": "New",
+      "art": "Floral & Herbal Tea",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 220
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 440
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 880
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 220,
+      "unit": "250g"
+    },
+    {
+      "id": "calcutta-tea",
+      "name": "Calcutta Street Tea",
+      "category": "Floral & Herbal Tea",
+      "description": "Strong street-style tea blend with bold, robust flavor",
+      "badge": "New",
+      "art": "Floral & Herbal Tea",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 272
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 545
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1090
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 272,
+      "unit": "250g"
+    },
+    {
+      "id": "cinnamon-tea",
+      "name": "Cinnamon Fusion Tea",
+      "category": "Floral & Herbal Tea",
+      "description": "Cinnamon infused tea with warm, sweet spice undertones",
+      "badge": "New",
+      "art": "Floral & Herbal Tea",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 220
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 440
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 880
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 220,
+      "unit": "250g"
+    },
+    {
+      "id": "chamomile-tea",
+      "name": "Chamomile Tea",
+      "category": "Floral & Herbal Tea",
+      "description": "Chamomile flowers offering calming, soothing herbal infusion experience",
+      "badge": "New",
+      "art": "Floral & Herbal Tea",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 875
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 1750
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 3500
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 875,
+      "unit": "250g"
+    },
+    {
+      "id": "cardamom-tea",
+      "name": "Cardamom Black Tea",
+      "category": "Floral & Herbal Tea",
+      "description": "Black tea infused with aromatic cardamom spice notes",
+      "badge": "New",
+      "art": "Floral & Herbal Tea",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 220
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 440
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 880
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 220,
+      "unit": "250g"
+    },
+    {
+      "id": "blue-pea-tea",
+      "name": "Blue Pea Tea",
+      "category": "Floral & Herbal Tea",
+      "description": "Butterfly pea flowers creating vibrant, antioxidant-rich herbal infusion",
+      "badge": "New",
+      "art": "Floral & Herbal Tea",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 950
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 1900
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 3800
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 950,
+      "unit": "250g"
+    },
+    {
+      "id": "golden-kiwi",
+      "name": "Golden KIWI",
+      "category": "Dry Fruits & Nuts",
+      "description": "Golden kiwi pieces offering tropical sweetness and vibrant taste",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 156
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 312
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 625
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 156,
+      "unit": "250g"
+    },
+    {
+      "id": "green-kiwi",
+      "name": "Green KIWI",
+      "category": "Dry Fruits & Nuts",
+      "description": "Dried green kiwi slices with tangy and sweet flavor",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 137
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 275
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 550
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 137,
+      "unit": "250g"
+    },
+    {
+      "id": "golden-raisins",
+      "name": "Golden Long Raisins",
+      "category": "Dry Fruits & Nuts",
+      "description": "Golden raisins with juicy texture and rich sweetness",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 190
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 380
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 760
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 190,
+      "unit": "250g"
+    },
+    {
+      "id": "gojiberry",
+      "name": "Gojiberry",
+      "category": "Dry Fruits & Nuts",
+      "description": "Goji berries packed with nutrients and mild sweet flavor",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 375
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 750
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1500
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 375,
+      "unit": "250g"
+    },
+    {
+      "id": "dry-cherry",
+      "name": "Dry Cherry",
+      "category": "Dry Fruits & Nuts",
+      "description": "Dried cherries with sweet-tart flavor and soft texture",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 240
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 480
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 960
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 240,
+      "unit": "250g"
+    },
+    {
+      "id": "dry-amla",
+      "name": "Dry Amla",
+      "category": "Dry Fruits & Nuts",
+      "description": "Dried amla rich in vitamin C and tangy taste",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 87
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 175
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 350
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 87,
+      "unit": "250g"
+    },
+    {
+      "id": "cranberry-cranberry",
+      "name": "Cranberry",
+      "category": "Dry Fruits & Nuts",
+      "description": "Tangy cranberries with sweet-sour flavor and chewy texture",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 247
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 495
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 990
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 247,
+      "unit": "250g"
+    },
+    {
+      "id": "blue-berry",
+      "name": "Blue Berry",
+      "category": "Dry Fruits & Nuts",
+      "description": "Sweet blueberries with mild tang and antioxidant benefits",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 525
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 1050
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 2100
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 525,
+      "unit": "250g"
+    },
+    {
+      "id": "black-raisins",
+      "name": "Black Raisins with Seed",
+      "category": "Dry Fruits & Nuts",
+      "description": "Classic black raisins with rich flavor and natural sweetness",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 287
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 575
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1150
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 287,
+      "unit": "250g"
+    },
+    {
+      "id": "black-raisins-seedless",
+      "name": "Black Raisins Seed Less",
+      "category": "Dry Fruits & Nuts",
+      "description": "Seedless black raisins with juicy sweetness and soft texture",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 197
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 395
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 790
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 197,
+      "unit": "250g"
+    },
+    {
+      "id": "black-current",
+      "name": "Black Current",
+      "category": "Dry Fruits & Nuts",
+      "description": "Black currants with tangy sweetness and rich antioxidants",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 247
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 495
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 990
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 247,
+      "unit": "250g"
+    },
+    {
+      "id": "walnut-chile",
+      "name": "Walnut Chile",
+      "category": "Dry Fruits & Nuts",
+      "description": "Whole walnuts with rich, nutty and slightly bitter taste",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 587
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 1175
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 2350
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 587,
+      "unit": "250g"
+    },
+    {
+      "id": "walnut-chile",
+      "name": "Walnut Broken Chile",
+      "category": "Dry Fruits & Nuts",
+      "description": "Broken walnuts with mild bitterness and earthy flavor",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 490
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 980
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1960
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 490,
+      "unit": "250g"
+    },
+    {
+      "id": "pepper-cashew",
+      "name": "Pepper Cashew",
+      "category": "Dry Fruits & Nuts",
+      "description": "Pepper-coated cashews delivering sharp, spicy flavor punch",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 372
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 745
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1490
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 372,
+      "unit": "250g"
+    },
+    {
+      "id": "chilli-cashew",
+      "name": "Chilli Garlic Cashew",
+      "category": "Dry Fruits & Nuts",
+      "description": "Cashews tossed in chilli garlic seasoning with spicy kick",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 372
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 745
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1490
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 372,
+      "unit": "250g"
+    },
+    {
+      "id": "malabar-cashew",
+      "name": "Malabar Masala Cashew",
+      "category": "Dry Fruits & Nuts",
+      "description": "Spiced cashews with bold Malabar masala flavor coating",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 372
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 745
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1490
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 372,
+      "unit": "250g"
+    },
+    {
+      "id": "cheesy-cashew",
+      "name": "Cheesy Cashew",
+      "category": "Dry Fruits & Nuts",
+      "description": "Cheese-flavored cashews with savory, creamy taste profile",
+      "badge": "Best Seller",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 397
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 795
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1590
+        }
+      ],
+      "featured": true,
+      "inStock": true,
+      "price": 397,
+      "unit": "250g"
+    },
+    {
+      "id": "roasted-salted-cashew",
+      "name": "Roasted & Salted Cashew",
+      "category": "Dry Fruits & Nuts",
+      "description": "Roasted cashews with salt enhancing rich nutty flavor",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 397
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 795
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1590
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 397,
+      "unit": "250g"
+    },
+    {
+      "id": "apricot-apricot",
+      "name": "Apricot",
+      "category": "Dry Fruits & Nuts",
+      "description": "Soft dried apricots with natural sweetness and tangy notes",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 362
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 725
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1450
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 362,
+      "unit": "250g"
+    },
+    {
+      "id": "classic-cashew",
+      "name": "Classic Salted Cashew",
+      "category": "Dry Fruits & Nuts",
+      "description": "Salted cashews with classic taste and satisfying crunch",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 397
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 795
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1590
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 397,
+      "unit": "250g"
+    },
+    {
+      "id": "rainbow-trail-mix",
+      "name": "Rainbow Trail Mix",
+      "category": "Dry Fruits & Nuts",
+      "description": "Colorful mix of nuts, seeds and dried fruits",
+      "badge": "Best Seller",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 378
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 757
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1515
+        }
+      ],
+      "featured": true,
+      "inStock": true,
+      "price": 378,
+      "unit": "250g"
+    },
+    {
+      "id": "pista-r-usa",
+      "name": "Pista (R) USA",
+      "category": "Dry Fruits & Nuts",
+      "description": "USA pistachios offering consistent quality and crunchy texture",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 437
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 875
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1750
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 437,
+      "unit": "250g"
+    },
+    {
+      "id": "pista-r-irani",
+      "name": "Pista (R ) Irani",
+      "category": "Dry Fruits & Nuts",
+      "description": "Irani pistachios with bold flavor and vibrant green kernels",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 422
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 845
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1690
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 422,
+      "unit": "250g"
+    },
+    {
+      "id": "macadamia-nuts",
+      "name": "Macadamia Nuts",
+      "category": "Dry Fruits & Nuts",
+      "description": "Macadamia nuts with buttery texture and delicate rich taste",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 987
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 1975
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 3950
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 987,
+      "unit": "250g"
+    },
+    {
+      "id": "hazelnut-hazelnut",
+      "name": "Hazelnut",
+      "category": "Dry Fruits & Nuts",
+      "description": "Crunchy hazelnuts with rich, nutty and slightly sweet flavor",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 825
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 1650
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 3300
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 825,
+      "unit": "250g"
+    },
+    {
+      "id": "chestnuts-chestnuts",
+      "name": "ChestNuts",
+      "category": "Dry Fruits & Nuts",
+      "description": "Chestnuts with mild sweetness and soft, starchy texture",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 250
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 500
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1000
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 250,
+      "unit": "250g"
+    },
+    {
+      "id": "cashew-w320",
+      "name": "Cashew W320",
+      "category": "Dry Fruits & Nuts",
+      "description": "Popular cashew grade with consistent size and creamy taste",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 297
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 595
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1190
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 297,
+      "unit": "250g"
+    },
+    {
+      "id": "cashew-w240",
+      "name": "Cashew  W240",
+      "category": "Dry Fruits & Nuts",
+      "description": "High-quality cashews offering perfect balance of size and flavor",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 347
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 695
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1390
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 347,
+      "unit": "250g"
+    },
+    {
+      "id": "cashew-w180",
+      "name": "Cashew W180",
+      "category": "Dry Fruits & Nuts",
+      "description": "Premium whole cashews with large size and rich taste",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 472
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 945
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1890
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 472,
+      "unit": "250g"
+    },
+    {
+      "id": "cashew-unpeeled",
+      "name": "Cashew Unpeeled",
+      "category": "Dry Fruits & Nuts",
+      "description": "Unpeeled cashews with natural taste and rustic texture",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 347
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 695
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1390
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 347,
+      "unit": "250g"
+    },
+    {
+      "id": "cashew-split",
+      "name": "Cashew Split",
+      "category": "Dry Fruits & Nuts",
+      "description": "Split cashews ideal for cooking, sweets and daily use",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 297
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 595
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1190
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 297,
+      "unit": "250g"
+    },
+    {
+      "id": "brazil-nuts",
+      "name": "Brazil Nuts",
+      "category": "Dry Fruits & Nuts",
+      "description": "Rich Brazil nuts with creamy texture and high nutrition",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 1372
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 2745
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 5490
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 1372,
+      "unit": "250g"
+    },
+    {
+      "id": "almond-sliced",
+      "name": "Almond Sliced",
+      "category": "Dry Fruits & Nuts",
+      "description": "Thin sliced almonds perfect for garnishing and baking needs",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 372
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 745
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1490
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 372,
+      "unit": "250g"
+    },
+    {
+      "id": "almond-powder",
+      "name": "Almond Powder",
+      "category": "Dry Fruits & Nuts",
+      "description": "Finely ground almond powder with rich nutty flavor",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 397
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 795
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1590
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 397,
+      "unit": "250g"
+    },
+    {
+      "id": "almond-iran",
+      "name": "Almond Iran",
+      "category": "Dry Fruits & Nuts",
+      "description": "Iranian almonds known for rich flavor and premium quality",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 1050
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 2100
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 4200
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 1050,
+      "unit": "250g"
+    },
+    {
+      "id": "almond-kernel-25-27",
+      "name": "Almond Kernel 25/27",
+      "category": "Dry Fruits & Nuts",
+      "description": "Larger almonds offering richer taste and crunchy texture",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 297
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 595
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1190
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 297,
+      "unit": "250g"
+    },
+    {
+      "id": "almond-kernel-20-22",
+      "name": "Almond Kernel 20/22",
+      "category": "Dry Fruits & Nuts",
+      "description": "Medium almonds with balanced crunch and mild sweetness",
+      "badge": "New",
+      "art": "Dry Fuits & Nuts",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 350
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 700
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1400
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 350,
+      "unit": "250g"
+    },
+    {
+      "id": "ambar-dates",
+      "name": "Ambar Dates",
+      "category": "Dates",
+      "description": "Ambar dates with soft flesh and rich sweet taste",
+      "badge": "Best Seller",
+      "art": "Dates",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 350
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 700
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1400
+        }
+      ],
+      "featured": true,
+      "inStock": true,
+      "price": 350,
+      "unit": "250g"
+    },
+    {
+      "id": "black-dates",
+      "name": "Black Dry Dates",
+      "category": "Dates",
+      "description": "Black dry dates with deep flavor and chewy texture",
+      "badge": "New",
+      "art": "Dates",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 156
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 312
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 625
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 156,
+      "unit": "250g"
+    },
+    {
+      "id": "dates-kalmi",
+      "name": "Dates Kalmi",
+      "category": "Dates",
+      "description": "Kalmi dates with firm texture and mild natural sweetness",
+      "badge": "New",
+      "art": "Dates",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 200
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 400
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 800
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 200,
+      "unit": "250g"
+    },
+    {
+      "id": "medjoul-dates",
+      "name": "Medjoul King Dates",
+      "category": "Dates",
+      "description": "King size Medjoul dates with soft, juicy texture",
+      "badge": "New",
+      "art": "Dates",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 575
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 1150
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 2300
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 575,
+      "unit": "250g"
+    },
+    {
+      "id": "medjoul-large",
+      "name": "Medjoul Large",
+      "category": "Dates",
+      "description": "Large Medjoul dates with rich caramel-like taste",
+      "badge": "New",
+      "art": "Dates",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 497
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 995
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1990
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 497,
+      "unit": "250g"
+    },
+    {
+      "id": "mariyam-dates",
+      "name": "Mariyam SP Dates",
+      "category": "Dates",
+      "description": "Mariyam dates offering balanced sweetness and soft bite",
+      "badge": "New",
+      "art": "Dates",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 248
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 497
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 995
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 248,
+      "unit": "250g"
+    },
+    {
+      "id": "mabroom-sp",
+      "name": "Mabroom Dates SP",
+      "category": "Dates",
+      "description": "Mabroom dates with chewy texture and natural sweetness",
+      "badge": "New",
+      "art": "Dates",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 322
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 645
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1290
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 322,
+      "unit": "250g"
+    },
+    {
+      "id": "ajwa-dates",
+      "name": "Ajwa Dates",
+      "category": "Dates",
+      "description": "Premium Ajwa dates known for deep flavor and softness",
+      "badge": "New",
+      "art": "Dates",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 300
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 600
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1200
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 300,
+      "unit": "250g"
+    },
+    {
+      "id": "safawi-sp",
+      "name": "Safawi Dates SP",
+      "category": "Dates",
+      "description": "Safawi dates with soft texture and rich caramel sweetness",
+      "badge": "New",
+      "art": "Dates",
+      "images": [],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 247
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 495
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 990
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 247,
+      "unit": "250g"
+    },
+    {
       "id": "cardamom-7mm",
       "name": "Cardamom 7mm",
       "category": "Spices",
