@@ -7,11 +7,28 @@
       "description": "Rich aroma spice blend for layered biriyani, pulao, and festive cooking.",
       "badge": "Best Seller",
       "art": "art-biryani",
+      "images": [],
       "quantityOptions": [
-        { "id": "250g", "label": "250g", "price": 180 },
-        { "id": "500g", "label": "500g", "price": 340 },
-        { "id": "1kg", "label": "1kg", "price": 650 }
-      ]
+        {
+          "id": "250g",
+          "label": "250g",
+          "price": 180
+        },
+        {
+          "id": "500g",
+          "label": "500g",
+          "price": 340
+        },
+        {
+          "id": "1kg",
+          "label": "1kg",
+          "price": 650
+        }
+      ],
+      "featured": true,
+      "inStock": true,
+      "price": 180,
+      "unit": "250g"
     },
     {
       "id": "whole-spices",
@@ -20,11 +37,28 @@
       "description": "Fresh farm sourced spices with balanced heat and deep kitchen fragrance.",
       "badge": "Signature",
       "art": "art-spices",
+      "images": [],
       "quantityOptions": [
-        { "id": "100g", "label": "100g", "price": 140 },
-        { "id": "250g", "label": "250g", "price": 240 },
-        { "id": "500g", "label": "500g", "price": 460 }
-      ]
+        {
+          "id": "100g",
+          "label": "100g",
+          "price": 140
+        },
+        {
+          "id": "250g",
+          "label": "250g",
+          "price": 240
+        },
+        {
+          "id": "500g",
+          "label": "500g",
+          "price": 460
+        }
+      ],
+      "featured": true,
+      "inStock": true,
+      "price": 140,
+      "unit": "100g"
     },
     {
       "id": "dry-fruits-mix",
@@ -33,11 +67,28 @@
       "description": "Premium quality nuts and dried fruits for gifting, snacking, and festive trays.",
       "badge": "Premium",
       "art": "art-dryfruits",
+      "images": [],
       "quantityOptions": [
-        { "id": "250g", "label": "250g", "price": 320 },
-        { "id": "500g", "label": "500g", "price": 620 },
-        { "id": "1kg", "label": "1kg", "price": 1200 }
-      ]
+        {
+          "id": "250g",
+          "label": "250g",
+          "price": 320
+        },
+        {
+          "id": "500g",
+          "label": "500g",
+          "price": 620
+        },
+        {
+          "id": "1kg",
+          "label": "1kg",
+          "price": 1200
+        }
+      ],
+      "featured": true,
+      "inStock": true,
+      "price": 320,
+      "unit": "250g"
     },
     {
       "id": "millets-combo",
@@ -46,11 +97,28 @@
       "description": "Healthy traditional grains curated for everyday breakfast, porridge, and rotis.",
       "badge": "Healthy Choice",
       "art": "art-millets",
+      "images": [],
       "quantityOptions": [
-        { "id": "500g", "label": "500g", "price": 210 },
-        { "id": "1kg", "label": "1kg", "price": 390 },
-        { "id": "2kg", "label": "2kg", "price": 740 }
-      ]
+        {
+          "id": "500g",
+          "label": "500g",
+          "price": 210
+        },
+        {
+          "id": "1kg",
+          "label": "1kg",
+          "price": 390
+        },
+        {
+          "id": "2kg",
+          "label": "2kg",
+          "price": 740
+        }
+      ],
+      "featured": true,
+      "inStock": true,
+      "price": 210,
+      "unit": "500g"
     },
     {
       "id": "kashmiri-chilli",
@@ -59,11 +127,28 @@
       "description": "Bright color, mild heat, and clean finish for curries, gravies, and snacks.",
       "badge": "Popular",
       "art": "art-saffron",
+      "images": [],
       "quantityOptions": [
-        { "id": "200g", "label": "200g", "price": 150 },
-        { "id": "500g", "label": "500g", "price": 320 },
-        { "id": "1kg", "label": "1kg", "price": 600 }
-      ]
+        {
+          "id": "200g",
+          "label": "200g",
+          "price": 150
+        },
+        {
+          "id": "500g",
+          "label": "500g",
+          "price": 320
+        },
+        {
+          "id": "1kg",
+          "label": "1kg",
+          "price": 600
+        }
+      ],
+      "featured": true,
+      "inStock": true,
+      "price": 150,
+      "unit": "200g"
     },
     {
       "id": "premium-cashews",
@@ -72,11 +157,28 @@
       "description": "Creamy whole cashews selected for festive hampers and premium everyday use.",
       "badge": "Festive Pick",
       "art": "art-nuts",
+      "images": [],
       "quantityOptions": [
-        { "id": "250g", "label": "250g", "price": 380 },
-        { "id": "500g", "label": "500g", "price": 720 },
-        { "id": "1kg", "label": "1kg", "price": 1380 }
-      ]
+        {
+          "id": "250g",
+          "label": "250g",
+          "price": 380
+        },
+        {
+          "id": "500g",
+          "label": "500g",
+          "price": 720
+        },
+        {
+          "id": "1kg",
+          "label": "1kg",
+          "price": 1380
+        }
+      ],
+      "featured": true,
+      "inStock": true,
+      "price": 380,
+      "unit": "250g"
     },
     {
       "id": "stone-ground-turmeric",
@@ -85,11 +187,28 @@
       "description": "Golden turmeric powder with earthy depth and clean aroma for home cooking.",
       "badge": "Kitchen Staple",
       "art": "art-gold",
+      "images": [],
       "quantityOptions": [
-        { "id": "200g", "label": "200g", "price": 140 },
-        { "id": "500g", "label": "500g", "price": 300 },
-        { "id": "1kg", "label": "1kg", "price": 560 }
-      ]
+        {
+          "id": "200g",
+          "label": "200g",
+          "price": 140
+        },
+        {
+          "id": "500g",
+          "label": "500g",
+          "price": 300
+        },
+        {
+          "id": "1kg",
+          "label": "1kg",
+          "price": 560
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 140,
+      "unit": "200g"
     },
     {
       "id": "ragi-flour",
@@ -98,11 +217,28 @@
       "description": "Fine milled ragi flour for dosa, porridge, rotis, and healthy bakes.",
       "badge": "Everyday Use",
       "art": "art-ragi",
+      "images": [],
       "quantityOptions": [
-        { "id": "500g", "label": "500g", "price": 120 },
-        { "id": "1kg", "label": "1kg", "price": 220 },
-        { "id": "2kg", "label": "2kg", "price": 410 }
-      ]
+        {
+          "id": "500g",
+          "label": "500g",
+          "price": 120
+        },
+        {
+          "id": "1kg",
+          "label": "1kg",
+          "price": 220
+        },
+        {
+          "id": "2kg",
+          "label": "2kg",
+          "price": 410
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 120,
+      "unit": "500g"
     }
   ],
   "reviews": [
@@ -112,7 +248,9 @@
       "location": "Kochi",
       "title": "High Quality Products",
       "message": "Fresh aroma, dependable quality, and clean packaging. The spice blends felt premium, and the order process was smooth from selection to doorstep delivery.",
-      "rating": 5
+      "rating": 5,
+      "image": "",
+      "visible": true
     },
     {
       "id": "manoj-s",
@@ -120,7 +258,9 @@
       "location": "Bengaluru",
       "title": "Fresh and well packed",
       "message": "The whole spices arrived with excellent freshness and careful packaging. I also liked the simple order flow and quick confirmation without any confusion.",
-      "rating": 5
+      "rating": 5,
+      "image": "",
+      "visible": true
     },
     {
       "id": "nisha-p",
@@ -128,7 +268,9 @@
       "location": "Chennai",
       "title": "Great pack-size choices",
       "message": "The dry fruits quality was excellent, and the pack-size options made it easy to order exactly what I needed for home use without overspending.",
-      "rating": 5
+      "rating": 5,
+      "image": "",
+      "visible": true
     }
   ],
   "settings": {
@@ -140,7 +282,7 @@
     "instagramUrl": "https://instagram.com/_spiciti",
     "youtubeUrl": "",
     "twitterUrl": "",
-    "showOfferTicker": true,
+    "showOfferTicker": false,
     "offerTickerText": "Limited time offer: Flat 10% off above 1099. Use code WOMENSDAY10"
   },
   "about": {
@@ -170,7 +312,8 @@
       "excerpt": "Layer by layer perfection - make restaurant-style Hyderabadi biryani using Spiciti's fragrant Biryani Masala blend. Step-by-step guide inside.",
       "body": "Hyderabadi Biryani is a celebration on a plate. With the right spice blend, perfectly marinated meat, and the traditional dum cooking method, you can recreate this iconic dish at home.\n\nIngredients:\n- 1 kg basmati rice\n- 750 g chicken (cut into pieces)\n- 3 tbsp Spiciti Biryani Masala\n- 1 cup yoghurt\n- 2 large onions, thinly sliced\n- Saffron soaked in warm milk\n- Ghee, mint leaves, and fried onions to garnish\n\nMethod:\n1. Marinate chicken with yoghurt and Spiciti Biryani Masala for at least 2 hours.\n2. Parboil basmati rice until 70% cooked. Drain and set aside.\n3. In a heavy-bottomed pot, layer half the rice, all the chicken, then the remaining rice.\n4. Drizzle saffron milk and ghee over the top layer.\n5. Seal the pot with dough or foil and cook on dum (low heat) for 25-30 minutes.\n6. Garnish with fried onions, mint, and serve with raita.",
       "videoUrl": "",
-      "image": ""
+      "image": "",
+      "visible": true
     },
     {
       "id": "5-ways-whole-spices",
@@ -180,7 +323,8 @@
       "excerpt": "Unlock the full potential of whole spices beyond curries - from infused oils and spice-smoked dishes to homemade chai masala.",
       "body": "Whole spices are powerhouses of flavour that most home cooks only use in curries. Here are five creative ways to get much more out of them:\n\n1. Infused Cooking Oils\nGently heat whole cumin, mustard seeds, and dried chillies in oil for 1-2 minutes to create a flavour-packed base for any dish.\n\n2. Dhungar Smoking\nPlace a small piece of charcoal in your cooked dish, add a clove and drizzle ghee over it, then cover immediately. The aromatic smoke infuses the food in seconds.\n\n3. Spice-Crusted Meats\nToast and coarsely grind coriander seeds, peppercorns, and fennel seeds. Press onto chicken or fish before pan-searing.\n\n4. Homemade Chai Masala\nCrush cinnamon, cardamom, cloves, and ginger to make your own custom chai blend - far fresher than store-bought.\n\n5. Dessert Spicing\nAdd a pinch of ground cardamom or a cinnamon stick to rice pudding, custards, or fruit compotes for a warm, exotic depth.",
       "videoUrl": "",
-      "image": ""
+      "image": "",
+      "visible": true
     },
     {
       "id": "ragi-porridge-breakfast",
@@ -190,7 +334,8 @@
       "excerpt": "A wholesome and delicious breakfast bowl made with Spiciti's stone-ground Ragi Flour, topped with dry fruits and a drizzle of honey.",
       "body": "Ragi (finger millet) is one of the most nutritious grains in Indian cooking - rich in calcium, iron, and natural fibre. This porridge comes together in under 10 minutes.\n\nIngredients:\n- 4 tbsp Spiciti Ragi Flour\n- 1.5 cups water or milk\n- A pinch of salt\n- 1 tsp jaggery or honey\n- Toppings: almonds, raisins, cashews, banana slices\n\nMethod:\n1. Whisk ragi flour into 1/2 cup cold water to make a lump-free paste.\n2. Bring the remaining 1 cup of water (or milk) to a gentle boil.\n3. Pour in the ragi paste while stirring continuously.\n4. Cook on medium heat for 5-7 minutes, stirring, until thickened.\n5. Sweeten with jaggery or honey.\n6. Pour into a bowl and top with your favourite dry fruits and fresh banana slices.\n\nTip: For extra creaminess, use half water and half milk.",
       "videoUrl": "",
-      "image": ""
+      "image": "",
+      "visible": true
     }
   ],
   "coupons": []
