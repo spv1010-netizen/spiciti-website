@@ -283,7 +283,7 @@
     "youtubeUrl": "",
     "twitterUrl": "",
     "showOfferTicker": false,
-    "offerTickerText": "Limited time offer: Flat 10% off above 1099. Use code WOMENSDAY10"
+    "offerTickerText": ""
   },
   "about": {
     "storyLabel": "About Us",
@@ -299,8 +299,8 @@
     "showFounderLetter": true,
     "boldWords": "",
     "textItalic": false,
-    "storyImage": "images/Rainbow Trail.jpg",
-    "purposeImage": "images/hero.jpeg",
+    "storyImage": "images/uploads/about/story-image-13529de1.jpg",
+    "purposeImage": "images/uploads/about/purpose-image-8c47f373.jpg",
     "founderImage": "images/hero.jpeg"
   },
   "posts": [
