@@ -966,8 +966,10 @@
       "category": "Floral & Herbal Tea",
       "description": "Herbal blend crafted to support men’s daily wellness",
       "badge": "New",
-      "art": "Floral & Herbal Tea",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/men-s-tea-1-a901b8e3.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -1806,8 +1808,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Roasted cashews with salt enhancing rich nutty flavor",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/roasted-salted-cashew-1-92d9b6c8.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -1836,8 +1840,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Soft dried apricots with natural sweetness and tangy notes",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/apricot-apricot-1-7e038ea4.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -1866,8 +1872,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Salted cashews with classic taste and satisfying crunch",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/classic-cashew-1-15ff7dd.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -1928,8 +1936,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "USA pistachios offering consistent quality and crunchy texture",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/pista-r-usa-1-1da7d3c4.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -1958,8 +1968,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Irani pistachios with bold flavor and vibrant green kernels",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/pista-r-irani-1-423f3530.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -1988,8 +2000,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Macadamia nuts with buttery texture and delicate rich taste",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-dryfruits",
+      "images": [
+        "images/uploads/products/macadamia-nuts-1-a93c43c.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -2018,8 +2032,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Crunchy hazelnuts with rich, nutty and slightly sweet flavor",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/hazelnut-hazelnut-1-e2db0d67.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
