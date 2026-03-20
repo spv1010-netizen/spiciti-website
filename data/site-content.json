@@ -386,7 +386,7 @@
     },
     {
       "id": "9mm-cardamom",
-      "name": "9mm Cardamom",
+      "name": "9mm Cardamom ( Export Quality)",
       "category": "Spices",
       "description": "Large premium pods with rich, lingering sweet aroma",
       "badge": "New",
@@ -1252,8 +1252,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Golden kiwi pieces offering tropical sweetness and vibrant taste",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-dryfruits",
+      "images": [
+        "images/uploads/products/golden-kiwi-1-da3ce329.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -1282,8 +1284,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Dried green kiwi slices with tangy and sweet flavor",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/green-kiwi-1-94188617.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -1312,8 +1316,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Golden raisins with juicy texture and rich sweetness",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/golden-raisins-1-c5197aef.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -1342,8 +1348,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Goji berries packed with nutrients and mild sweet flavor",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/gojiberry-1-9119deeb.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -1362,7 +1370,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
+      "inStock": false,
       "price": 375,
       "unit": "250g"
     },
@@ -1372,29 +1380,36 @@
       "category": "Dry Fruits & Nuts",
       "description": "Dried cherries with sweet-tart flavor and soft texture",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/dry-cherry-1-3e259e65.jpg"
+      ],
       "quantityOptions": [
         {
-          "id": "250g-1",
+          "id": "100g-1",
+          "label": "100g",
+          "price": 96
+        },
+        {
+          "id": "250g-2",
           "label": "250g",
           "price": 240
         },
         {
-          "id": "500g-2",
+          "id": "500g-3",
           "label": "500g",
           "price": 480
         },
         {
-          "id": "1kg-3",
+          "id": "1kg-4",
           "label": "1kg",
           "price": 960
         }
       ],
       "featured": false,
       "inStock": true,
-      "price": 240,
-      "unit": "250g"
+      "price": 96,
+      "unit": "100g"
     },
     {
       "id": "dry-amla",
