@@ -1480,7 +1480,9 @@
       "description": "Sweet blueberries with mild tang and antioxidant benefits",
       "badge": "New",
       "art": "art-spices",
-      "images": [],
+      "images": [
+        "images/uploads/products/blue-berry-1-4d49eaeb.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "100g-1",
