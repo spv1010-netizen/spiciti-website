@@ -932,8 +932,10 @@
       "category": "Floral & Herbal Tea",
       "description": "Fragrant lavender buds with calming floral aroma notes",
       "badge": "New",
-      "art": "Floral & Herbal Tea",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/lavender-buds-1-90fb0d70.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -962,8 +964,10 @@
       "category": "Floral & Herbal Tea",
       "description": "Strong masala tea with bold spices and rich taste",
       "badge": "New",
-      "art": "Floral & Herbal Tea",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/kadak-tea-1-9ed53a89.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -992,8 +996,10 @@
       "category": "Floral & Herbal Tea",
       "description": "Green tea blended with delicate jasmine floral aroma",
       "badge": "New",
-      "art": "Floral & Herbal Tea",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/jasmine-tea-1-c14b6211.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -1022,8 +1028,10 @@
       "category": "Floral & Herbal Tea",
       "description": "Hibiscus petals delivering tangy, refreshing, antioxidant-rich infusion",
       "badge": "Best Seller",
-      "art": "Floral & Herbal Tea",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/hibiscus-tea-1-627d32c8.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -1052,8 +1060,10 @@
       "category": "Floral & Herbal Tea",
       "description": "Ginger-infused black tea with warming, spicy kick",
       "badge": "New",
-      "art": "Floral & Herbal Tea",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/ginger-tea-1-d56247ab.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -1082,8 +1092,10 @@
       "category": "Floral & Herbal Tea",
       "description": "Strong street-style tea blend with bold, robust flavor",
       "badge": "New",
-      "art": "Floral & Herbal Tea",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/calcutta-tea-1-759bf5b2.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -1112,8 +1124,10 @@
       "category": "Floral & Herbal Tea",
       "description": "Cinnamon infused tea with warm, sweet spice undertones",
       "badge": "New",
-      "art": "Floral & Herbal Tea",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/cinnamon-tea-1-2e431c18.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -1142,8 +1156,10 @@
       "category": "Floral & Herbal Tea",
       "description": "Chamomile flowers offering calming, soothing herbal infusion experience",
       "badge": "New",
-      "art": "Floral & Herbal Tea",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/chamomile-tea-1-c9941b44.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -1172,8 +1188,10 @@
       "category": "Floral & Herbal Tea",
       "description": "Black tea infused with aromatic cardamom spice notes",
       "badge": "New",
-      "art": "Floral & Herbal Tea",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/cardamom-tea-1-4d271f6c.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -1202,8 +1220,10 @@
       "category": "Floral & Herbal Tea",
       "description": "Butterfly pea flowers creating vibrant, antioxidant-rich herbal infusion",
       "badge": "New",
-      "art": "Floral & Herbal Tea",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/blue-pea-tea-1-c0e85ea9.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
