@@ -2731,7 +2731,7 @@
     "founderLetter": "Spiciti was born from a very personal need in my own kitchen: ingredients I could trust without second-guessing. Over time, that need became a promise to serve families with food that is clean, honest, and full of natural flavour. Every product we bring you is selected with care, and every decision we make is guided by purity, transparency, and respect for the people who grow and prepare these ingredients.",
     "founderName": "Shobana Balasubrahmanniyan",
     "founderRole": "Founder, Spiciti",
-    "showFounderLetter": true,
+    "showFounderLetter": false,
     "boldWords": "",
     "textItalic": false,
     "storyImage": "images/uploads/about/story-image-178d9929.jpg",
