@@ -1481,8 +1481,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Dried amla rich in vitamin C and tangy taste",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/dry-amla-1-9387b3be.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
