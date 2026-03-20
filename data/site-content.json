@@ -1479,29 +1479,34 @@
       "category": "Dry Fruits & Nuts",
       "description": "Sweet blueberries with mild tang and antioxidant benefits",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
+      "art": "art-spices",
       "images": [],
       "quantityOptions": [
         {
-          "id": "250g-1",
+          "id": "100g-1",
+          "label": "100g",
+          "price": 210
+        },
+        {
+          "id": "250g-2",
           "label": "250g",
           "price": 525
         },
         {
-          "id": "500g-2",
+          "id": "500g-3",
           "label": "500g",
           "price": 1050
         },
         {
-          "id": "1kg-3",
+          "id": "1kg-4",
           "label": "1kg",
           "price": 2100
         }
       ],
       "featured": false,
       "inStock": true,
-      "price": 525,
-      "unit": "250g"
+      "price": 210,
+      "unit": "100g"
     },
     {
       "id": "black-raisins",
