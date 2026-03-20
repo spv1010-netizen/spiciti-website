@@ -1,6 +1,70 @@
 {
   "catalog": [
     {
+      "id": "walnut-broken-chile",
+      "name": "Walnut Broken Chile",
+      "category": "Dry Fruits & Nuts",
+      "description": "Broken walnuts with mild bitterness and earthy flavor",
+      "badge": "New",
+      "art": "art-biryani",
+      "images": [
+        "images/uploads/products/walnut-broken-chile-1-f4efe16.jpg"
+      ],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 490
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 980
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 1960
+        }
+      ],
+      "featured": false,
+      "inStock": true,
+      "price": 490,
+      "unit": "250g"
+    },
+    {
+      "id": "walnut-chile",
+      "name": "Walnut Chile",
+      "category": "Dry Fruits & Nuts",
+      "description": "Whole walnuts with rich, nutty and slightly bitter taste",
+      "badge": "Best Seller",
+      "art": "art-biryani",
+      "images": [
+        "images/uploads/products/walnut-chile-1-372f7f5f.jpg"
+      ],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 587
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 1175
+        },
+        {
+          "id": "1kg-3",
+          "label": "1kg",
+          "price": 2350
+        }
+      ],
+      "featured": true,
+      "inStock": true,
+      "price": 587,
+      "unit": "250g"
+    },
+    {
       "id": "cinnamon-cylon",
       "name": "Cinnamon Cylon",
       "category": "Spices",
@@ -1516,8 +1580,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Classic black raisins with rich flavor and natural sweetness",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-dryfruits",
+      "images": [
+        "images/uploads/products/black-raisins-1-f4f55f69.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -1546,8 +1612,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Seedless black raisins with juicy sweetness and soft texture",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/black-raisins-seedless-1-d5ac3891.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -1576,8 +1644,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Black currants with tangy sweetness and rich antioxidants",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/black-current-1-c6910e07.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -1598,66 +1668,6 @@
       "featured": false,
       "inStock": true,
       "price": 247,
-      "unit": "250g"
-    },
-    {
-      "id": "walnut-chile",
-      "name": "Walnut Chile",
-      "category": "Dry Fruits & Nuts",
-      "description": "Whole walnuts with rich, nutty and slightly bitter taste",
-      "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
-      "quantityOptions": [
-        {
-          "id": "250g-1",
-          "label": "250g",
-          "price": 587
-        },
-        {
-          "id": "500g-2",
-          "label": "500g",
-          "price": 1175
-        },
-        {
-          "id": "1kg-3",
-          "label": "1kg",
-          "price": 2350
-        }
-      ],
-      "featured": false,
-      "inStock": true,
-      "price": 587,
-      "unit": "250g"
-    },
-    {
-      "id": "walnut-chile",
-      "name": "Walnut Broken Chile",
-      "category": "Dry Fruits & Nuts",
-      "description": "Broken walnuts with mild bitterness and earthy flavor",
-      "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
-      "quantityOptions": [
-        {
-          "id": "250g-1",
-          "label": "250g",
-          "price": 490
-        },
-        {
-          "id": "500g-2",
-          "label": "500g",
-          "price": 980
-        },
-        {
-          "id": "1kg-3",
-          "label": "1kg",
-          "price": 1960
-        }
-      ],
-      "featured": false,
-      "inStock": true,
-      "price": 490,
       "unit": "250g"
     },
     {
