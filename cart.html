@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Review your selected Spiciti products before checkout.">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<link rel="canonical" href="https://www.spiciti.in/cart.html">
+<title>Spiciti Cart</title>
+<link rel="icon" type="image/jpeg" href="images/logo.jpeg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="cart">
+<header class="site-header">
+  <div class="container nav-shell">
+    <a class="brand" href="index.html" aria-label="Spiciti home">
+      <img src="images/logo.jpeg" alt="Spiciti logo">
+      <span class="brand-wordmark">SPICITI</span>
+    </a>
+
+    <button class="menu-toggle" type="button" data-menu-toggle aria-label="Open navigation menu" aria-expanded="false" aria-controls="main-nav">
+      Menu
+    </button>
+
+    <nav class="main-nav" id="main-nav" data-nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="products.html">Products</a>
+      <a href="recipes.html">Recipes</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+
+    <a class="search-link" href="products.html#product-search" aria-label="Search products">Search</a>
+
+    <a class="cart-link is-active" href="cart.html" aria-label="View cart">
+      Cart
+      <span class="cart-count" data-cart-count>0</span>
+    </a>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container narrow">
+      <span class="section-label center">Review Order</span>
+    </div>
+  </section>
+
+  <section class="cart-section">
+    <div class="container cart-layout">
+      <div class="cart-left">
+        <div class="cart-items" data-cart-items></div>
+
+        <section class="customer-details-section">
+          <div class="container narrow">
+            <h2>Customer Details</h2>
+            <form data-customer-form>
+              <fieldset>
+                <legend>Billing Address</legend>
+
+                <label>
+                  Name
+                  <input name="billingName" type="text" required>
+                </label>
+
+                <label>
+                  Street address 1
+                  <input name="billingAddress" type="text" required>
+                </label>
+
+                <label>
+                  Street address 2
+                  <input name="billingAddress2" type="text" placeholder="Optional">
+                </label>
+
+                <label>
+                  City
+                  <input name="billingCity" type="text" required>
+                </label>
+
+                <label>
+                  District
+                  <input name="billingDistrict" type="text" required>
+                </label>
+
+                <label>
+                  State
+                  <select name="billingState" required>
+                    <option value="">Select your state</option>
+                  </select>
+                </label>
+
+                <label>
+                  Country
+                  <select name="billingCountry" required>
+                    <option value="">Select country</option>
+                  </select>
+                </label>
+
+                <label>
+                  Pincode
+                  <input name="billingPincode" type="text" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" minlength="6" required>
+                </label>
+
+                <label>
+                  Phone Number
+                  <input name="billingPhone" type="tel" inputmode="numeric" pattern="[0-9]{10}" maxlength="10" minlength="10" required>
+                </label>
+              </fieldset>
+
+              <label class="toggle-switch">
+                <span class="toggle-label">If the shipping address is same as billing address</span>
+                <input type="checkbox" name="shippingSame">
+                <span class="toggle-track" aria-hidden="true"></span>
+              </label>
+
+              <fieldset data-shipping-fields hidden>
+                <legend>Shipping Address</legend>
+
+                <label>
+                  Name
+                  <input name="shippingName" type="text" required>
+                </label>
+
+                <label>
+                  Street address 1
+                  <input name="shippingAddress" type="text" required>
+                </label>
+
+                <label>
+                  Street address 2
+                  <input name="shippingAddress2" type="text" placeholder="Optional">
+                </label>
+
+                <label>
+                  City
+                  <input name="shippingCity" type="text" required>
+                </label>
+
+                <label>
+                  District
+                  <input name="shippingDistrict" type="text" required>
+                </label>
+
+                <label>
+                  State
+                  <select name="shippingState" required>
+                    <option value="">Select your state</option>
+                  </select>
+                </label>
+
+                <label>
+                  Country
+                  <select name="shippingCountry" required>
+                    <option value="">Select country</option>
+                  </select>
+                </label>
+
+                <label>
+                  Pincode
+                  <input name="shippingPincode" type="text" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" minlength="6" required>
+                </label>
+
+                <label>
+                  Phone Number
+                  <input name="shippingPhone" type="tel" inputmode="numeric" pattern="[0-9]{10}" maxlength="10" minlength="10" required>
+                </label>
+              </fieldset>
+
+              <div class="form-actions">
+                <button class="button button-solid" type="submit">Save Details</button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+
+      <aside class="cart-summary">
+        <h2>Order Summary</h2>
+        <div class="summary-row">
+          <span>Items</span>
+          <strong data-summary-count>0</strong>
+        </div>
+        <div class="summary-row">
+          <span>Subtotal</span>
+          <strong data-summary-subtotal>Rs. 0</strong>
+        </div>
+        <div class="summary-row summary-row-discount" data-summary-discount-row hidden>
+          <span>Discount</span>
+          <strong data-summary-discount>- Rs. 0</strong>
+        </div>
+        <div class="summary-row">
+          <span>Delivery</span>
+          <strong data-summary-shipping>Rs. 0</strong>
+        </div>
+        <div class="summary-row total">
+          <span>Total</span>
+          <strong data-summary-total>Rs. 0</strong>
+        </div>
+
+        <div class="coupon-box">
+          <label for="couponCodeInput">Apply Coupon</label>
+          <div class="coupon-box-controls">
+            <input id="couponCodeInput" type="text" placeholder="Enter coupon code" data-coupon-code-input>
+            <button class="button button-soft" type="button" data-apply-coupon>Apply</button>
+          </div>
+          <div class="coupon-box-status" data-coupon-feedback></div>
+          <button class="button button-soft full-width" type="button" data-remove-coupon hidden>Remove Coupon</button>
+        </div>
+
+        <a class="button button-solid full-width" href="checkout.html" data-start-checkout>Proceed to Checkout</a>
+        <button class="button button-soft full-width" type="button" data-clear-cart>Clear Cart</button>
+
+        <p class="summary-note">
+          Checkout opens a payment screen with UPI QR, quick pay, and order confirmation actions.
+        </p>
+      </aside>
+    </div>
+  </section>
+
+  <div class="payment-modal" data-payment-modal hidden>
+    <button class="payment-modal-backdrop" type="button" data-payment-modal-backdrop aria-label="Close payment popup"></button>
+    <section class="payment-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="payment-modal-title">
+      <button class="payment-modal-close" type="button" data-close-payment-modal aria-label="Close payment popup"></button>
+
+      <h2 id="payment-modal-title">Complete your UPI payment</h2>
+
+      <div class="checkout-status-row payment-modal-status-row">
+        <strong data-checkout-order-id>Order ID: -</strong>
+        <span class="status-pill" data-checkout-status>Payment Status: Waiting for payment</span>
+      </div>
+
+      <div class="checkout-payment-main payment-modal-main" data-checkout-flow="modal">
+        <div class="upi-qr-card payment-modal-qr-card" data-checkout-qr-wrapper>
+          <img class="upi-qr-image" data-checkout-qr alt="UPI payment QR code">
+        </div>
+
+        <div class="checkout-payment-copy">
+          <p class="checkout-payment-instruction" data-checkout-instruction>Scan via UPI</p>
+
+          <div class="checkout-manual-upi" data-checkout-manual-upi hidden>
+            <p class="checkout-manual-upi-label">UPI ID</p>
+            <div class="checkout-manual-upi-row">
+              <strong data-checkout-upi-id-copy>-</strong>
+              <button class="button button-soft" type="button" data-checkout-copy-upi>Copy UPI ID</button>
+            </div>
+            <p class="checkout-manual-note" data-checkout-manual-note>Open your UPI app and pay using this UPI ID</p>
+          </div>
+
+          <div class="payment-details payment-modal-details">
+            <div class="payment-detail">
+              <span>Amount</span>
+              <strong data-checkout-amount>-</strong>
+            </div>
+            <div class="payment-detail">
+              <span>UPI ID</span>
+              <strong data-checkout-upi-id>-</strong>
+            </div>
+            <div class="payment-detail">
+              <span>Payee</span>
+              <strong data-checkout-upi-name>-</strong>
+            </div>
+          </div>
+
+          <p class="payment-modal-countdown checkout-payment-countdown" data-checkout-countdown>You can confirm order in 30 seconds</p>
+          <p class="payment-modal-note checkout-payment-notice" data-checkout-notice><strong>Orders are processed after payment confirmation.</strong></p>
+        </div>
+      </div>
+
+      <div class="checkout-actions-stack">
+        <button class="button button-solid full-width" type="button" data-checkout-open-upi>Open UPI App</button>
+        <button class="button button-soft full-width" type="button" data-checkout-open-whatsapp disabled aria-disabled="true">Send Order on WhatsApp</button>
+        <button class="button button-soft full-width" type="button" data-checkout-open-email disabled aria-disabled="true">Send Order via Email</button>
+      </div>
+    </section>
+  </div>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-shell">
+      <div class="footer-grid">
+        <section class="footer-column">
+          <h2 class="footer-heading">Disclaimer</h2>
+          <p class="footer-copy">
+             Product images may display glass bottles for presentation only.
+             All items are actually packed and delivered in <b>eco-friendly, sustainable packets,</b>
+              reflecting our commitment to <b>environmentally responsible packaging.</b>
+          </p>
+        </section>
+
+        <section class="footer-column footer-column-brand">
+          <h2 class="footer-heading">Spiciti</h2>
+          <p class="footer-copy">
+           <strong>Experience bold, authentic flavours with Spiciti.</strong>
+            From freshly ground spices and masalas to <strong>handpicked dry fruits, nuts, and floral & herbal teas</strong>,
+             every product is crafted to deliver natural freshness, rich aroma, and unforgettable taste.
+              Pure ingredients, real flavour—just the way it should be.
+          </p>
+        </section>
+
+        <section class="footer-column footer-column-contact">
+          <h2 class="footer-heading">Contact Us</h2>
+          <a class="footer-contact-row" href="#" data-contact-phone-link>
+            <span class="footer-contact-icons" aria-hidden="true">
+              <span class="footer-icon footer-icon-phone footer-icon-plain"></span>
+              <span class="footer-icon footer-icon-whatsapp footer-icon-plain"></span>
+            </span>
+            <span data-contact-phone>+91 90746 41652</span>
+          </a>
+          <a class="footer-contact-row" href="mailto:Info@spiciti.in">
+            <span class="footer-icon footer-icon-mail footer-icon-plain" aria-hidden="true"></span>
+            <span>Info@spiciti.in</span>
+          </a>
+
+          <div class="footer-follow">
+            <h3 class="footer-subheading">Follow Us</h3>
+            <div class="social-links footer-social-links" data-social-links></div>
+          </div>
+
+          <div class="footer-actions">
+            <button class="button button-soft" type="button" data-contact-toggle aria-expanded="false">Get In Touch</button>
+          </div>
+        </section>
+      </div>
+
+      <div class="contact-form-panel footer-contact-panel" data-contact-panel hidden>
+        <form class="contact-form" data-contact-form>
+          <div class="contact-form-grid">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Your name" required>
+            </label>
+            <label>
+              <span>Email or Phone</span>
+              <input type="text" name="replyTo" placeholder="you@example.com or +91..." required>
+            </label>
+          </div>
+          <label>
+            <span>Enquiry</span>
+            <textarea name="message" rows="4" placeholder="Tell us what you would like to know..." required></textarea>
+          </label>
+
+          <div class="contact-actions">
+            <button class="button button-soft" type="submit">Send Enquiry</button>
+            <a class="button button-solid" href="#" data-contact-whatsapp>WhatsApp Us</a>
+          </div>
+        </form>
+      </div>
+
+      <p class="footer-rights">&copy; <span data-year></span> Spiciti. All rights reserved.</p>
+    </div>
+  </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
