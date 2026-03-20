@@ -1447,8 +1447,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Tangy cranberries with sweet-sour flavor and chewy texture",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-dryfruits",
+      "images": [
+        "images/uploads/products/cranberry-cranberry-1-f05028b4.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
