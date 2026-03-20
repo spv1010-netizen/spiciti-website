@@ -1896,8 +1896,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Colorful mix of nuts, seeds and dried fruits",
       "badge": "Best Seller",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-dryfruits",
+      "images": [
+        "images/uploads/products/rainbow-trail-mix-1-41c3beb9.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
