@@ -27,7 +27,7 @@
           "price": 720
         }
       ],
-      "featured": false,
+      "featured": true,
       "inStock": true,
       "price": 180,
       "unit": "250g"
