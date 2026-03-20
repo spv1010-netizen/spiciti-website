@@ -2064,8 +2064,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Chestnuts with mild sweetness and soft, starchy texture",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/chestnuts-chestnuts-1-40d2ee7.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -2094,8 +2096,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Popular cashew grade with consistent size and creamy taste",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/cashew-w320-1-b1f612a1.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -2124,8 +2128,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "High-quality cashews offering perfect balance of size and flavor",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/cashew-w240-1-48199f12.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -2154,8 +2160,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Premium whole cashews with large size and rich taste",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/cashew-w180-1-bf576b46.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -2184,8 +2192,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Unpeeled cashews with natural taste and rustic texture",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/cashew-unpeeled-1-a2c41aac.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -2214,8 +2224,10 @@
       "category": "Dry Fruits & Nuts",
       "description": "Split cashews ideal for cooking, sweets and daily use",
       "badge": "New",
-      "art": "Dry Fuits & Nuts",
-      "images": [],
+      "art": "art-spices",
+      "images": [
+        "images/uploads/products/cashew-split-1-c54a9f3e.jpg"
+      ],
       "quantityOptions": [
         {
           "id": "250g-1",
@@ -2792,7 +2804,7 @@
       "excerpt": "Layer by layer perfection - make restaurant-style Hyderabadi biryani using Spiciti's fragrant Biryani Masala blend. Step-by-step guide inside.",
       "body": "Hyderabadi Biryani is a celebration on a plate. With the right spice blend, perfectly marinated meat, and the traditional dum cooking method, you can recreate this iconic dish at home.\n\nIngredients:\n- 1 kg basmati rice\n- 750 g chicken (cut into pieces)\n- 3 tbsp Spiciti Biryani Masala\n- 1 cup yoghurt\n- 2 large onions, thinly sliced\n- Saffron soaked in warm milk\n- Ghee, mint leaves, and fried onions to garnish\n\nMethod:\n1. Marinate chicken with yoghurt and Spiciti Biryani Masala for at least 2 hours.\n2. Parboil basmati rice until 70% cooked. Drain and set aside.\n3. In a heavy-bottomed pot, layer half the rice, all the chicken, then the remaining rice.\n4. Drizzle saffron milk and ghee over the top layer.\n5. Seal the pot with dough or foil and cook on dum (low heat) for 25-30 minutes.\n6. Garnish with fried onions, mint, and serve with raita.",
       "videoUrl": "",
-      "image": "",
+      "image": "images/uploads/posts/hyderabadi-biryani-recipe-cover-3259da47.jpg",
       "visible": true
     },
     {
@@ -2803,7 +2815,7 @@
       "excerpt": "Unlock the full potential of whole spices beyond curries - from infused oils and spice-smoked dishes to homemade chai masala.",
       "body": "Whole spices are powerhouses of flavour that most home cooks only use in curries. Here are five creative ways to get much more out of them:\n\n1. Infused Cooking Oils\nGently heat whole cumin, mustard seeds, and dried chillies in oil for 1-2 minutes to create a flavour-packed base for any dish.\n\n2. Dhungar Smoking\nPlace a small piece of charcoal in your cooked dish, add a clove and drizzle ghee over it, then cover immediately. The aromatic smoke infuses the food in seconds.\n\n3. Spice-Crusted Meats\nToast and coarsely grind coriander seeds, peppercorns, and fennel seeds. Press onto chicken or fish before pan-searing.\n\n4. Homemade Chai Masala\nCrush cinnamon, cardamom, cloves, and ginger to make your own custom chai blend - far fresher than store-bought.\n\n5. Dessert Spicing\nAdd a pinch of ground cardamom or a cinnamon stick to rice pudding, custards, or fruit compotes for a warm, exotic depth.",
       "videoUrl": "",
-      "image": "",
+      "image": "images/uploads/posts/5-ways-whole-spices-cover-7dc9ecea.jpg",
       "visible": true
     },
     {
@@ -2814,7 +2826,7 @@
       "excerpt": "A wholesome and delicious breakfast bowl made with Spiciti's stone-ground Ragi Flour, topped with dry fruits and a drizzle of honey.",
       "body": "Ragi (finger millet) is one of the most nutritious grains in Indian cooking - rich in calcium, iron, and natural fibre. This porridge comes together in under 10 minutes.\n\nIngredients:\n- 4 tbsp Spiciti Ragi Flour\n- 1.5 cups water or milk\n- A pinch of salt\n- 1 tsp jaggery or honey\n- Toppings: almonds, raisins, cashews, banana slices\n\nMethod:\n1. Whisk ragi flour into 1/2 cup cold water to make a lump-free paste.\n2. Bring the remaining 1 cup of water (or milk) to a gentle boil.\n3. Pour in the ragi paste while stirring continuously.\n4. Cook on medium heat for 5-7 minutes, stirring, until thickened.\n5. Sweeten with jaggery or honey.\n6. Pour into a bowl and top with your favourite dry fruits and fresh banana slices.\n\nTip: For extra creaminess, use half water and half milk.",
       "videoUrl": "",
-      "image": "",
+      "image": "images/uploads/posts/ragi-porridge-breakfast-cover-94aa9bb1.jpg",
       "visible": true
     }
   ],
