@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VBCV8SGRKP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VBCV8SGRKP');
+  </script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<link rel="canonical" href="https://www.spiciti.in/admin.html">
+<title>Spiciti Local Catalog Manager</title>
+<link rel="icon" type="image/jpeg" href="images/logo.jpeg">
+<link rel="stylesheet" href="style.css">
+<style>
+  main { display: none; }
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  .login-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 300px;
+  }
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .login-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .login-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .password-container {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  .password-container input {
+    width: 100%;
+    padding: 0.5rem;
+    padding-right: 2.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .password-toggle {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none;
+    font-size: 1.2rem;
+  }
+  .login-form button {
+    width: 100%;
+    padding: 0.75rem;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .login-form button:hover {
+    background: #0056b3;
+  }
+</style>
+</head>
+<body data-page="admin">
+<header class="site-header">
+  <div class="container nav-shell">
+    <a class="brand" href="index.html" aria-label="Spiciti home">
+      <img src="images/logo.jpeg" alt="Spiciti logo">
+      <span class="brand-wordmark">SPICITI</span>
+    </a>
+
+    <button class="menu-toggle" type="button" data-menu-toggle aria-label="Open navigation menu" aria-expanded="false" aria-controls="main-nav">
+      Menu
+    </button>
+
+    <nav class="main-nav" id="main-nav" data-nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="products.html">Products</a>
+      <a href="recipes.html">Recipes</a>
+      <a href="index.html#contact">Contact Us</a>
+    </nav>
+
+    <a class="search-link" href="products.html#product-search" aria-label="Search products">Search</a>
+
+    <a class="cart-link" href="cart.html" aria-label="View cart">
+      Cart
+      <span class="cart-count" data-cart-count>0</span>
+    </a>
+  </div>
+</header>
+
+<div id="loginContainer" class="login-container">
+  <form id="loginForm" class="login-form">
+    <h2>Admin Login</h2>
+    <label for="username">Username</label>
+    <input type="text" id="username" required>
+    <label for="password">Password</label>
+    <div class="password-container">
+      <input type="password" id="password" required>
+      <span class="password-toggle" id="passwordToggle" title="Show password">👁️</span>
+    </div>
+    <button type="submit">Login</button>
+    <div id="error" style="color: red; display: none;">Invalid credentials</div>
+  </form>
+</div>
+
+<main>
+  <section class="page-hero">
+    <div class="container narrow">
+      <span class="section-label center">Local Tooling</span>
+      <h1 class="section-title center">Catalog Manager</h1>
+      <p class="section-copy center">
+        Use this page to add or remove products in your current browser. It is helpful for demos and content updates before you set up a backend.
+      </p>
+    </div>
+  </section>
+
+  <section class="admin-section">
+    <div class="container admin-layout">
+      <div class="admin-sidebar">
+        <form class="admin-form" data-product-form>
+          <h2 data-product-form-title>Add a Product</h2>
+          <input name="productId" type="hidden">
+
+          <label>
+            Product Name
+            <input name="name" type="text" placeholder="Premium Biryani Masala" required>
+          </label>
+
+          <label>
+            Category
+            <input name="category" type="text" placeholder="Masalas" required>
+          </label>
+
+          <label>
+            Quantity Options
+            <textarea name="quantityOptions" rows="4" placeholder="250g:180, 500g:340, 1kg:650" required></textarea>
+            <small class="field-hint">Use comma or new line separated values in the format label:price.</small>
+          </label>
+
+          <label>
+            Short Description
+            <textarea name="description" rows="4" placeholder="Warm, layered spice blend for biriyani, pulao, and curries." required></textarea>
+          </label>
+
+          <label>
+            Badge
+            <input name="badge" type="text" placeholder="Best Seller">
+          </label>
+
+          <label>
+            Product Images
+            <input name="images" type="file" accept="image/*" multiple data-product-images-input>
+            <small class="field-hint">Select one or more product images. Images are auto-compressed before save. If you add new images while editing, they replace the current set.</small>
+          </label>
+
+          <div class="image-preview-grid" data-product-image-preview></div>
+
+          <label>
+            Artwork Theme
+            <select name="art">
+              <option value="art-biryani">Biryani</option>
+              <option value="art-spices">Whole Spices</option>
+              <option value="art-dryfruits">Dry Fruits</option>
+              <option value="art-millets">Millets</option>
+              <option value="art-saffron">Premium Blend</option>
+              <option value="art-nuts">Nuts</option>
+              <option value="art-gold">Turmeric</option>
+              <option value="art-ragi">Ragi</option>
+            </select>
+          </label>
+
+          <div class="form-actions">
+            <button class="button button-solid" type="submit" data-product-submit>Save Product</button>
+            <button class="button button-soft" type="button" data-cancel-product-edit hidden>Cancel Edit</button>
+            <button class="button button-soft" type="button" data-reset-catalog>Reset to Default Catalog</button>
+          </div>
+        </form>
+
+        <form class="admin-form" data-product-import-form>
+          <h2>Bulk Product Import</h2>
+
+          <label>
+            Upload File (CSV/XLS/XLSX)
+            <input name="catalogFile" type="file" accept=".csv,.xls,.xlsx" required>
+            <small class="field-hint">Required columns: Name, Category, Description, Quantity Options. Optional: Badge, Artwork Theme, Featured, Product ID.</small>
+            <small class="field-hint">Quantity Options format: 250g:180, 500g:340, 1kg:650</small>
+          </label>
+
+          <div class="form-actions">
+            <button class="button button-solid" type="submit">Import Products</button>
+            <button class="button button-soft" type="button" data-download-product-template>Download Sample CSV</button>
+          </div>
+        </form>
+
+        <form class="admin-form" data-backup-form>
+          <h2>GitHub Pages Content</h2>
+
+          <p class="field-hint">
+            GitHub Pages is static. Permanent site content should be published through <code>data/site-content.json</code>. Download this file after admin changes, replace the same file in your GitHub repo, then commit and push.
+          </p>
+
+          <label>
+            Restore From <code>site-content.json</code>
+            <input name="backupFile" type="file" accept=".json,application/json">
+            <small class="field-hint">Import a previously downloaded publish file or backup JSON.</small>
+          </label>
+
+          <div class="form-actions">
+            <button class="button button-solid" type="button" data-export-backup>Download site-content.json</button>
+            <button class="button button-soft" type="submit">Restore Content File</button>
+          </div>
+        </form>
+
+        <form class="admin-form" data-github-publish-form>
+          <h2>Publish To GitHub</h2>
+
+          <p class="field-hint">
+            This updates your GitHub repository so the same products and images are visible to customers from any browser or location after GitHub Pages refreshes.
+          </p>
+
+          <label>
+            Repository Owner
+            <input name="owner" type="text" placeholder="your-github-username" required>
+          </label>
+
+          <label>
+            Repository Name
+            <input name="repo" type="text" placeholder="your-repository-name" required>
+          </label>
+
+          <label>
+            Branch
+            <input name="branch" type="text" placeholder="main" value="main" required>
+          </label>
+
+          <label>
+            GitHub Token
+            <input name="token" type="password" placeholder="GitHub fine-grained token" autocomplete="off" required>
+            <small class="field-hint">Use a fine-grained GitHub token with repository contents write access. It is kept only in this browser session.</small>
+          </label>
+
+          <label>
+            Commit Message
+            <input name="commitMessage" type="text" placeholder="Update site content">
+          </label>
+
+          <label class="featured-toggle">
+            <input name="autoPublish" type="checkbox">
+            Auto publish future admin changes to GitHub
+          </label>
+
+          <div class="form-actions">
+            <button class="button button-solid" type="submit">Publish to GitHub</button>
+          </div>
+        </form>
+
+        <form class="admin-form" data-settings-form>
+          <h2>Store Settings</h2>
+
+          <label>
+            Contact Phone
+            <input name="phone" type="text" placeholder="+91 90746 41652" required>
+          </label>
+
+          <label>
+            WhatsApp Number
+            <input name="whatsappPhone" type="text" placeholder="919074641652" required>
+            <small class="field-hint">Use country code without spaces or symbols for WhatsApp routing.</small>
+          </label>
+
+          <label>
+            UPI ID
+            <input name="upiId" type="text" placeholder="yourname@bank" required>
+          </label>
+
+          <label>
+            UPI Payee Name
+            <input name="upiName" type="text" placeholder="Spiciti" required>
+          </label>
+
+          <label>
+            Facebook URL
+            <input name="facebookUrl" type="url" placeholder="https://facebook.com/yourpage">
+          </label>
+
+          <label>
+            Instagram URL
+            <input name="instagramUrl" type="url" placeholder="https://instagram.com/yourprofile">
+          </label>
+
+          <label>
+            YouTube URL
+            <input name="youtubeUrl" type="url" placeholder="https://youtube.com/@yourchannel">
+          </label>
+
+          <label>
+            X URL
+            <input name="twitterUrl" type="url" placeholder="https://x.com/yourprofile">
+          </label>
+
+          <div class="form-actions">
+            <button class="button button-solid" type="submit">Save Settings</button>
+          </div>
+        </form>
+
+        <form class="admin-form" data-offer-settings-form>
+          <h2>Offer Ticker Settings</h2>
+
+          <label>
+            Moving Offer Text
+            <textarea name="offerTickerText" rows="3" placeholder="Limited time offer: Flat 10% off above 1099. Use code WOMENSDAY10"></textarea>
+            <small class="field-hint">This text scrolls above the menu bar on public pages.</small>
+          </label>
+
+          <label class="featured-toggle">
+            <input name="showOfferTicker" type="checkbox" checked>
+            Show moving offer text on website
+          </label>
+
+          <div class="form-actions">
+            <button class="button button-solid" type="submit">Save Offer Settings</button>
+          </div>
+        </form>
+
+        <form class="admin-form" data-coupon-form>
+          <h2>Coupon Settings</h2>
+
+          <label>
+            Coupon Name
+            <input name="couponCode" type="text" placeholder="SUMMER10" required>
+          </label>
+
+          <label>
+            % of Reduction
+            <input name="couponDiscount" type="number" min="1" max="100" step="0.01" placeholder="10" required>
+          </label>
+
+          <label>
+            Minimum Order Amount (₹)
+            <input name="couponMinOrder" type="number" min="0" step="0.01" placeholder="0 (no minimum)">
+          </label>
+
+          <div class="form-actions">
+            <button class="button button-solid" type="submit">Add / Update Coupon</button>
+          </div>
+        </form>
+
+        <form class="admin-form" data-about-form>
+          <h2>About Page Content</h2>
+
+          <label>
+            Story Label
+            <input name="storyLabel" type="text" placeholder="About Us" required>
+          </label>
+
+          <label>
+            Story Title
+            <input name="storyTitle" type="text" placeholder="Our Story" required>
+          </label>
+
+          <label>
+            Story Paragraph
+            <textarea name="storyPara1" rows="4" placeholder="Story section paragraph" required></textarea>
+          </label>
+
+          <label>
+            Purpose Title
+            <input name="purposeTitle" type="text" placeholder="Our Purpose" required>
+          </label>
+
+          <label>
+            Purpose Intro
+            <textarea name="purposeIntro" rows="3" placeholder="Intro text under purpose title" required></textarea>
+          </label>
+
+          <label>
+            Purpose Paragraph
+            <textarea name="purposePara" rows="6" placeholder="Purpose section paragraph" required></textarea>
+          </label>
+
+          <label>
+            Founder Section Title
+            <input name="founderTitle" type="text" placeholder="Letter From Our Founder" required>
+          </label>
+
+          <label>
+            Founder Letter
+            <textarea name="founderLetter" rows="6" placeholder="Founder letter content" required></textarea>
+          </label>
+
+          <label>
+            Founder Name
+            <input name="founderName" type="text" placeholder="Shobana Balasubrahmanniyan" required>
+          </label>
+
+          <label>
+            Founder Role
+            <input name="founderRole" type="text" placeholder="Founder, Spiciti" required>
+          </label>
+
+          <label>
+            Founder Image
+            <input name="founderImage" type="file" accept="image/*" data-about-founder-image-input>
+            <small class="field-hint">Upload a new founder image for the letter section.</small>
+          </label>
+          <div class="image-preview-grid" data-about-founder-image-preview></div>
+
+          <label>
+            About Text Style
+            <div class="about-style-toggles">
+              <label>
+                <span>Words To Bold (comma separated)</span>
+                <input name="boldWords" type="text" placeholder="authentic, pure, farmers">
+                <small class="field-hint">Only matching words in About text will be bold.</small>
+              </label>
+              <label class="featured-toggle">
+                <input name="textItalic" type="checkbox">
+                Italic text
+              </label>
+              <label class="featured-toggle">
+                <input name="showFounderLetter" type="checkbox" checked>
+                Show Founder Letter section on About page
+              </label>
+            </div>
+          </label>
+
+          <label>
+            Story Section Image
+            <input name="storyImage" type="file" accept="image/*" data-about-story-image-input>
+            <small class="field-hint">Upload a new image for the story section.</small>
+          </label>
+          <div class="image-preview-grid" data-about-story-image-preview></div>
+
+          <label>
+            Purpose Section Image
+            <input name="purposeImage" type="file" accept="image/*" data-about-purpose-image-input>
+            <small class="field-hint">Upload a new image for the purpose section.</small>
+          </label>
+          <div class="image-preview-grid" data-about-purpose-image-preview></div>
+
+          <div class="form-actions">
+            <button class="button button-solid" type="submit">Save About Content</button>
+            <button class="button button-soft" type="button" data-reset-about-content>Reset About Content</button>
+          </div>
+        </form>
+
+        <form class="admin-form" data-review-form>
+          <h2>Add a Review</h2>
+
+          <label>
+            Reviewer Name
+            <input name="name" type="text" placeholder="Anjana R" required>
+          </label>
+
+          <label>
+            Location
+            <input name="location" type="text" placeholder="Kochi" required>
+          </label>
+
+          <label>
+            Review Title
+            <input name="title" type="text" placeholder="High Quality Products" required>
+          </label>
+
+          <label>
+            Rating
+            <select name="rating">
+              <option value="5">5 Stars</option>
+              <option value="4">4 Stars</option>
+              <option value="3">3 Stars</option>
+              <option value="2">2 Stars</option>
+              <option value="1">1 Star</option>
+            </select>
+          </label>
+
+          <label>
+            Review Message
+            <textarea name="message" rows="5" placeholder="Share the customer feedback here..." required></textarea>
+          </label>
+
+          <label>
+            Customer Image
+            <input name="image" type="file" accept="image/*" data-review-image-input>
+            <small class="field-hint">Optional. Add a customer photo to show on the review card.</small>
+          </label>
+
+          <div class="image-preview-grid image-preview-grid-single" data-review-image-preview></div>
+
+          <div class="form-actions">
+            <button class="button button-solid" type="submit">Save Review</button>
+          </div>
+        </form>
+
+        <form class="admin-form" data-post-form>
+          <h2 data-post-form-title>Add a Recipe / Blog Post</h2>
+          <input type="hidden" name="postId" value="">
+
+          <label>
+            Post Title
+            <input name="title" type="text" placeholder="Authentic Hyderabadi Biryani at Home" required>
+          </label>
+
+          <label>
+            Category
+            <select name="category" data-post-category>
+              <option value="Recipe">Recipe</option>
+              <option value="Video">Video</option>
+              <option value="Tips &amp; Tricks">Tips &amp; Tricks</option>
+            </select>
+          </label>
+
+          <div class="video-url-row" data-video-url-row hidden>
+            <label>
+              YouTube Video URL <span class="field-required">*</span>
+              <input name="videoUrl" type="text" placeholder="https://www.youtube.com/watch?v=..." data-post-video-url>
+              <small class="field-hint">Paste your Spiciti YouTube video link — the thumbnail will preview below.</small>
+            </label>
+            <div class="video-url-preview" data-video-url-preview hidden>
+              <img data-video-thumb-img src="" alt="Video thumbnail preview" onerror="this.src=this.src.replace('hqdefault','mqdefault')">
+              <span class="video-play-btn" aria-hidden="true"></span>
+            </div>
+          </div>
+
+          <label>
+            Date
+            <input name="date" type="date">
+          </label>
+
+          <label>
+            Short Description (Excerpt)
+            <textarea name="excerpt" rows="3" placeholder="A brief description shown on the blog card..." required></textarea>
+          </label>
+
+          <label>
+            Full Post Content
+            <textarea name="body" rows="10" placeholder="Write the full recipe, article, or tips here. This appears on the post detail page when visitors click 'Read more'."></textarea>
+          </label>
+
+          <label>
+            Cover Image
+            <input name="image" type="file" accept="image/*" data-post-image-input>
+            <small class="field-hint">Optional. Used as the card background when no video is provided.</small>
+          </label>
+
+          <div class="image-preview-grid image-preview-grid-single" data-post-image-preview></div>
+
+          <div class="form-actions">
+            <button class="button button-solid" type="submit" data-post-submit>Publish Post</button>
+            <button class="button button-soft" type="button" data-cancel-post-edit hidden>Cancel Edit</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="admin-content">
+        <div class="admin-inventory">
+          <div class="inventory-header">
+            <h2>Current Catalog</h2>
+            <a class="text-link" href="products.html">Open Storefront</a>
+
+        <div class="admin-inventory">
+          <div class="inventory-header">
+            <h2>Coupon Codes</h2>
+          </div>
+          <div class="coupon-admin-list" data-admin-coupons></div>
+        </div>
+          </div>
+          <div class="inventory-list" data-admin-products></div>
+        </div>
+
+        <div class="admin-inventory">
+          <div class="inventory-header">
+            <h2>Customer Reviews</h2>
+          </div>
+          <div class="review-admin-list" data-admin-reviews></div>
+        </div>
+
+        <div class="admin-inventory">
+          <div class="inventory-header">
+            <h2>Recipes &amp; Blog Posts</h2>
+            <a class="text-link" href="recipes.html">View Blog</a>
+          </div>
+          <div class="post-admin-list" data-admin-posts></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+document.getElementById('loginForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const username = document.getElementById('username').value;
+  const password = document.getElementById('password').value;
+  if (username === 'spiciti' && password === 'Spicitiadmin@1987') {
+    document.getElementById('loginContainer').style.display = 'none';
+    document.querySelector('main').style.display = 'block';
+    sessionStorage.setItem('adminLoggedIn', 'true');
+  } else {
+    document.getElementById('error').style.display = 'block';
+  }
+});
+
+// Password visibility toggle
+document.getElementById('passwordToggle').addEventListener('click', function() {
+  const passwordInput = document.getElementById('password');
+  const toggleIcon = this;
+  if (passwordInput.type === 'password') {
+    passwordInput.type = 'text';
+    toggleIcon.textContent = '🙈'; // Hide icon
+    toggleIcon.title = 'Hide password';
+  } else {
+    passwordInput.type = 'password';
+    toggleIcon.textContent = '👁️'; // Show icon
+    toggleIcon.title = 'Show password';
+  }
+});
+
+// Check if already logged in
+if (sessionStorage.getItem('adminLoggedIn') === 'true') {
+  document.getElementById('loginContainer').style.display = 'none';
+  document.querySelector('main').style.display = 'block';
+}
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
