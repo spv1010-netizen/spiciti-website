@@ -57,8 +57,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "walnut-chile",
@@ -438,8 +437,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "9mm-cardamom",
@@ -468,8 +466,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "8mm-cardamom",
@@ -498,8 +495,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "thyme-leaf-dh",
@@ -528,8 +524,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "oregano-leafs-dh",
@@ -558,8 +553,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "mint-leafs-dh",
@@ -588,8 +582,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "kasuri-methi-dh",
@@ -618,8 +611,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "rosemary-dh",
@@ -648,8 +640,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "parsely-dh",
@@ -768,8 +759,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "sleep-tea",
