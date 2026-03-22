@@ -1279,8 +1279,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "golden-raisins",
@@ -1309,8 +1308,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "gojiberry",
@@ -1339,8 +1337,7 @@
         }
       ],
       "featured": false,
-      "inStock": false,
-      "badge": "New"
+      "inStock": false
     },
     {
       "id": "dry-cherry",
@@ -1374,8 +1371,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "dry-amla",
@@ -1404,8 +1400,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "cranberry-cranberry",
@@ -1434,8 +1429,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "blue-berry",
@@ -1469,8 +1463,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "black-raisins",
@@ -1499,8 +1492,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "black-raisins-seedless",
@@ -1529,8 +1521,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "black-current",
@@ -1559,8 +1550,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "pepper-cashew",
@@ -1589,8 +1579,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "chilli-cashew",
@@ -1619,8 +1608,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "malabar-cashew",
@@ -1649,8 +1637,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "cheesy-cashew",
@@ -1709,8 +1696,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "apricot-apricot",
@@ -1740,7 +1726,7 @@
       ],
       "featured": false,
       "inStock": true,
-      "badge": "New"
+      "badge": "Best Seller"
     },
     {
       "id": "classic-cashew",
@@ -1769,8 +1755,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "rainbow-trail-mix",
@@ -1829,8 +1814,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "pista-r-irani",
@@ -1859,8 +1843,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "macadamia-nuts",
@@ -1889,8 +1872,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "hazelnut-hazelnut",
@@ -1919,8 +1901,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "chestnuts-chestnuts",
@@ -1949,8 +1930,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "cashew-w320",
@@ -1979,8 +1959,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "cashew-w240",
@@ -2009,8 +1988,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "cashew-w180",
@@ -2039,8 +2017,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "cashew-unpeeled",
@@ -2069,8 +2046,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "cashew-split",
@@ -2099,8 +2075,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "brazil-nuts",
@@ -2129,8 +2104,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "almond-sliced",
@@ -2159,8 +2133,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "almond-powder",
@@ -2189,8 +2162,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "almond-iran",
@@ -2219,8 +2191,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "almond-kernel-25-27",
@@ -2249,8 +2220,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "almond-kernel-20-22",
@@ -2279,8 +2249,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "ambar-dates",
@@ -2339,8 +2308,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "dates-kalmi",
@@ -2369,8 +2337,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "medjoul-dates",
@@ -2399,8 +2366,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "medjoul-large",
@@ -2429,8 +2395,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "mariyam-dates",
@@ -2459,8 +2424,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "mabroom-sp",
@@ -2489,8 +2453,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "ajwa-dates",
@@ -2519,8 +2482,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "safawi-sp",
