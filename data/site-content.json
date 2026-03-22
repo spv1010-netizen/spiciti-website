@@ -5,7 +5,6 @@
       "name": "Kashmiri Chilly Powder",
       "category": "MASALAS",
       "description": "Adds a rich red color to dishes without adding too much heat, making it ideal for curries, tandoori marinades etc",
-      "badge": "Best Seller",
       "art": "art-biryani",
       "images": [
         "images/uploads/products/kashmiri-chilly-powder-1-f8f522d6.jpg"
@@ -29,15 +28,13 @@
       ],
       "featured": true,
       "inStock": true,
-      "price": 180,
-      "unit": "250g"
+      "badge": "Best Seller"
     },
     {
       "id": "walnut-broken-chile",
       "name": "Walnut Broken Chile",
       "category": "Dry Fruits & Nuts",
       "description": "Broken walnuts with mild bitterness and earthy flavor",
-      "badge": "New",
       "art": "art-biryani",
       "images": [
         "images/uploads/products/walnut-broken-chile-1-f4efe16.jpg"
@@ -61,15 +58,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 490,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "walnut-chile",
       "name": "Walnut Chile",
       "category": "Dry Fruits & Nuts",
       "description": "Whole walnuts with rich, nutty and slightly bitter taste",
-      "badge": "Best Seller",
       "art": "art-biryani",
       "images": [
         "images/uploads/products/walnut-chile-1-372f7f5f.jpg"
@@ -93,15 +88,13 @@
       ],
       "featured": true,
       "inStock": true,
-      "price": 587,
-      "unit": "250g"
+      "badge": "Best Seller"
     },
     {
       "id": "cinnamon-cylon",
       "name": "Cinnamon Cylon",
       "category": "Spices",
       "description": "Ceylon cinnamon with mild sweetness and delicate spice notes",
-      "badge": "Fast Moving",
       "art": "art-spices",
       "images": [
         "images/uploads/products/cinnamon-cylon-1-8faf8143.jpg"
@@ -125,15 +118,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 462,
-      "unit": "250g"
+      "badge": "Fast Moving"
     },
     {
       "id": "star-anise",
       "name": "Star Anise",
       "category": "Spices",
       "description": "Star-shaped spice with sweet, licorice-like aromatic flavor",
-      "badge": "Featured",
       "art": "art-spices",
       "images": [
         "images/uploads/products/star-anise-1-921968cf.jpg"
@@ -156,16 +147,13 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "price": 287,
-      "unit": "250g"
+      "inStock": true
     },
     {
       "id": "nutmeg-nutmeg",
       "name": "Nutmeg",
       "category": "Spices",
       "description": "Whole nutmeg with rich, deep, sweet-spicy flavor notes",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/nutmeg-nutmeg-1-2d56fa52.jpg"
@@ -189,15 +177,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 187,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "mace-whole",
       "name": "Mace Whole",
       "category": "Spices",
       "description": "Delicate mace blades offering subtle, warm spice complexity",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/mace-whole-1-6364f158.jpg"
@@ -221,15 +207,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 747,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "cinnamon-roll",
       "name": "Cinnamon Roll",
       "category": "Spices",
       "description": "Curled cinnamon sticks with warm, sweet woody aroma",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/cinnamon-roll-1-56e229a.jpg"
@@ -253,15 +237,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 237,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "black-pepper-bold",
       "name": "Black Pepper Bold (Extra Bold)",
       "category": "Spices",
       "description": "Extra bold peppercorns delivering powerful, sharp heat intensity",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/black-pepper-bold-1-34c82319.jpg"
@@ -285,15 +267,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 302,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "fennel-seed",
       "name": "Fennel Seed",
       "category": "Spices",
       "description": "Sweet fennel seeds with refreshing, mild licorice flavor",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/fennel-seed-1-3f5d2e68.jpg"
@@ -317,15 +297,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 82,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "dry-lemon",
       "name": "Dry Lemon",
       "category": "Spices",
       "description": "Zesty dried lemon adding tangy citrus depth to dishes",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/dry-lemon-1-fcd7de6c.jpg"
@@ -349,15 +327,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 162,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "dry-ginger",
       "name": "Dry Ginger",
       "category": "Spices",
       "description": "Sun-dried ginger delivering sharp, earthy spice warmth",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/dry-ginger-1-458a9935.jpg"
@@ -381,15 +357,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 187,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "cloves-kerala",
       "name": "Cloves Kerala",
       "category": "Spices",
       "description": "Kerala cloves packed with strong, warming aromatic oils",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/cloves-kerala-1-5dafd229.jpg"
@@ -413,15 +387,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 412,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "black-bold",
       "name": "Black Pepper Bold",
       "category": "Spices",
       "description": "Bold Malabar pepper with intense, fiery flavor kick",
-      "badge": "Best Seller",
       "art": "art-spices",
       "images": [
         "images/uploads/products/black-bold-1-92e99df9.jpg"
@@ -445,15 +417,13 @@
       ],
       "featured": true,
       "inStock": true,
-      "price": 277,
-      "unit": "250g"
+      "badge": "Best Seller"
     },
     {
       "id": "black-pepper",
       "name": "Black pepper",
       "category": "Spices",
       "description": "Sharp, pungent peppercorns adding heat to every dish",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/black-pepper-1-f769470b.jpg"
@@ -477,15 +447,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 225,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "9mm-cardamom",
       "name": "9mm Cardamom ( Export Quality)",
       "category": "Spices",
       "description": "Large premium pods with rich, lingering sweet aroma",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/9mm-cardamom-1-7e7afab0.jpg"
@@ -509,15 +477,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 1172,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "8mm-cardamom",
       "name": "8mm Cardamom",
       "category": "Spices",
       "description": "Bold green pods offering warm, fragrant cardamom notes",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/8mm-cardamom-1-95f02354.jpg"
@@ -541,15 +507,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 1075,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "thyme-leaf-dh",
       "name": "Thyme Leaf (DH)",
       "category": "Herbs",
       "description": "Thyme leaves offering subtle, earthy, warm herbal flavor",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/thyme-leaf-dh-1-3ce26c70.jpg"
@@ -573,15 +537,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 187,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "oregano-leafs-dh",
       "name": "Oregano Leafs (DH)",
       "category": "Herbs",
       "description": "Oregano leaves with bold, earthy and slightly bitter taste",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/oregano-leafs-dh-1-300a60b3.jpg"
@@ -605,15 +567,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 162,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "mint-leafs-dh",
       "name": "Mint Leafs (DH)",
       "category": "Herbs",
       "description": "Dried mint leaves delivering cool, refreshing herbal notes",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/mint-leafs-dh-1-781d002b.jpg"
@@ -637,15 +597,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 150,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "kasuri-methi-dh",
       "name": "Kasuri Methi(DH)",
       "category": "Herbs",
       "description": "Kasuri methi leaves with rich, slightly bitter aroma",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/kasuri-methi-dh-1-b1c4f318.jpg"
@@ -669,15 +627,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 175,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "rosemary-dh",
       "name": "Rosemary (DH)",
       "category": "Herbs",
       "description": "Woody rosemary leaves with strong, pine-like aromatic flavor",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/rosemary-dh-1-8eeb18e3.jpg"
@@ -701,15 +657,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 175,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "parsely-dh",
       "name": "Parsely (DH)",
       "category": "Herbs",
       "description": "Dried parsley adding fresh, mild herbal flavor touch",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/parsely-dh-1-716d342b.jpg"
@@ -733,15 +687,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 200,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "basil-leafs-dh",
       "name": "Basil Leafs (DH)",
       "category": "Herbs",
       "description": "Dried basil leaves with mild, sweet herbal aroma",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/basil-leafs-dh-1-ca41d178.jpg"
@@ -765,15 +717,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 162,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "earl-grey",
       "name": "Earl Grey Black Tea",
       "category": "Floral & Herbal Tea",
       "description": "Classic black tea with citrusy bergamot aromatic notes",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/earl-grey-1-5e73adb3.jpg"
@@ -797,15 +747,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 600,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "weight-tea",
       "name": "Weight Loss Tea",
       "category": "Floral & Herbal Tea",
       "description": "Light herbal tea supporting metabolism and weight management",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/weight-tea-1-b64c8ef2.jpg"
@@ -829,15 +777,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 572,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "sleep-tea",
       "name": "Sleep Assist Tea",
       "category": "Floral & Herbal Tea",
       "description": "Calming herbal blend designed to promote restful sleep",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/sleep-tea-1-34788b5a.jpg"
@@ -861,15 +807,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 975,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "rose-buds",
       "name": "Rose Buds",
       "category": "Floral & Herbal Tea",
       "description": "Dried rose buds with delicate floral aroma and taste",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/rose-buds-1-d91433bc.jpg"
@@ -893,15 +837,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 750,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "nettle-green",
       "name": "Nettle Leaf Green",
       "category": "Floral & Herbal Tea",
       "description": "Nettle leaves offering mild, grassy, nutrient-rich herbal infusion",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/nettle-green-1-f2ded119.jpg"
@@ -925,15 +867,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 600,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "moringa-dust",
       "name": "Moringa leaf Dust",
       "category": "Floral & Herbal Tea",
       "description": "Fine moringa powder packed with nutrients and earthy taste",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/moringa-dust-1-4d02133e.jpg"
@@ -957,15 +897,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 87,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "mint-tea",
       "name": "Mint Green Tea",
       "category": "Floral & Herbal Tea",
       "description": "Refreshing green tea infused with cooling mint flavor",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/mint-tea-1-2933bab3.jpg"
@@ -989,15 +927,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 497,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "men-s-tea",
       "name": "Men's Health Tea",
       "category": "Floral & Herbal Tea",
       "description": "Herbal blend crafted to support men’s daily wellness",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/men-s-tea-1-a901b8e3.jpg"
@@ -1021,15 +957,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 747,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "lavender-buds",
       "name": "Lavender Buds",
       "category": "Floral & Herbal Tea",
       "description": "Fragrant lavender buds with calming floral aroma notes",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/lavender-buds-1-90fb0d70.jpg"
@@ -1053,15 +987,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 1000,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "kadak-tea",
       "name": "Kadak Masala Tea",
       "category": "Floral & Herbal Tea",
       "description": "Strong masala tea with bold spices and rich taste",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/kadak-tea-1-9ed53a89.jpg"
@@ -1085,15 +1017,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 220,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "jasmine-tea",
       "name": "Jasmine Green Tea",
       "category": "Floral & Herbal Tea",
       "description": "Green tea blended with delicate jasmine floral aroma",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/jasmine-tea-1-c14b6211.jpg"
@@ -1117,15 +1047,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 550,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "hibiscus-tea",
       "name": "Hibiscus Tea",
       "category": "Floral & Herbal Tea",
       "description": "Hibiscus petals delivering tangy, refreshing, antioxidant-rich infusion",
-      "badge": "Best Seller",
       "art": "art-spices",
       "images": [
         "images/uploads/products/hibiscus-tea-1-627d32c8.jpg"
@@ -1149,15 +1077,13 @@
       ],
       "featured": true,
       "inStock": true,
-      "price": 375,
-      "unit": "250g"
+      "badge": "Best Seller"
     },
     {
       "id": "ginger-tea",
       "name": "Ginger Black Tea",
       "category": "Floral & Herbal Tea",
       "description": "Ginger-infused black tea with warming, spicy kick",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/ginger-tea-1-d56247ab.jpg"
@@ -1181,15 +1107,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 220,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "calcutta-tea",
       "name": "Calcutta Street Tea",
       "category": "Floral & Herbal Tea",
       "description": "Strong street-style tea blend with bold, robust flavor",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/calcutta-tea-1-759bf5b2.jpg"
@@ -1213,15 +1137,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 272,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "cinnamon-tea",
       "name": "Cinnamon Fusion Tea",
       "category": "Floral & Herbal Tea",
       "description": "Cinnamon infused tea with warm, sweet spice undertones",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/cinnamon-tea-1-2e431c18.jpg"
@@ -1245,15 +1167,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 220,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "chamomile-tea",
       "name": "Chamomile Tea",
       "category": "Floral & Herbal Tea",
       "description": "Chamomile flowers offering calming, soothing herbal infusion experience",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/chamomile-tea-1-c9941b44.jpg"
@@ -1277,15 +1197,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 875,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "cardamom-tea",
       "name": "Cardamom Black Tea",
       "category": "Floral & Herbal Tea",
       "description": "Black tea infused with aromatic cardamom spice notes",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/cardamom-tea-1-4d271f6c.jpg"
@@ -1309,15 +1227,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 220,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "blue-pea-tea",
       "name": "Blue Pea Tea",
       "category": "Floral & Herbal Tea",
       "description": "Butterfly pea flowers creating vibrant, antioxidant-rich herbal infusion",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/blue-pea-tea-1-c0e85ea9.jpg"
@@ -1341,15 +1257,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 950,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "golden-kiwi",
       "name": "Golden KIWI",
       "category": "Dry Fruits & Nuts",
       "description": "Golden kiwi pieces offering tropical sweetness and vibrant taste",
-      "badge": "New",
       "art": "art-dryfruits",
       "images": [
         "images/uploads/products/golden-kiwi-1-da3ce329.jpg"
@@ -1373,15 +1287,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 156,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "green-kiwi",
       "name": "Green KIWI",
       "category": "Dry Fruits & Nuts",
       "description": "Dried green kiwi slices with tangy and sweet flavor",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/green-kiwi-1-94188617.jpg"
@@ -1405,15 +1317,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 137,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "golden-raisins",
       "name": "Golden Long Raisins",
       "category": "Dry Fruits & Nuts",
       "description": "Golden raisins with juicy texture and rich sweetness",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/golden-raisins-1-c5197aef.jpg"
@@ -1437,15 +1347,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 190,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "gojiberry",
       "name": "Gojiberry",
       "category": "Dry Fruits & Nuts",
       "description": "Goji berries packed with nutrients and mild sweet flavor",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/gojiberry-1-9119deeb.jpg"
@@ -1469,15 +1377,13 @@
       ],
       "featured": false,
       "inStock": false,
-      "price": 375,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "dry-cherry",
       "name": "Dry Cherry",
       "category": "Dry Fruits & Nuts",
       "description": "Dried cherries with sweet-tart flavor and soft texture",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/dry-cherry-1-3e259e65.jpg"
@@ -1506,15 +1412,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 96,
-      "unit": "100g"
+      "badge": "New"
     },
     {
       "id": "dry-amla",
       "name": "Dry Amla",
       "category": "Dry Fruits & Nuts",
       "description": "Dried amla rich in vitamin C and tangy taste",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/dry-amla-1-9387b3be.jpg"
@@ -1538,15 +1442,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 87,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "cranberry-cranberry",
       "name": "Cranberry",
       "category": "Dry Fruits & Nuts",
       "description": "Tangy cranberries with sweet-sour flavor and chewy texture",
-      "badge": "New",
       "art": "art-dryfruits",
       "images": [
         "images/uploads/products/cranberry-cranberry-1-f05028b4.jpg"
@@ -1570,15 +1472,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 247,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "blue-berry",
       "name": "Blue Berry",
       "category": "Dry Fruits & Nuts",
       "description": "Sweet blueberries with mild tang and antioxidant benefits",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/blue-berry-1-4d49eaeb.jpg"
@@ -1607,15 +1507,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 210,
-      "unit": "100g"
+      "badge": "New"
     },
     {
       "id": "black-raisins",
       "name": "Black Raisins with Seed",
       "category": "Dry Fruits & Nuts",
       "description": "Classic black raisins with rich flavor and natural sweetness",
-      "badge": "New",
       "art": "art-dryfruits",
       "images": [
         "images/uploads/products/black-raisins-1-f4f55f69.jpg"
@@ -1639,15 +1537,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 287,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "black-raisins-seedless",
       "name": "Black Raisins Seed Less",
       "category": "Dry Fruits & Nuts",
       "description": "Seedless black raisins with juicy sweetness and soft texture",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/black-raisins-seedless-1-d5ac3891.jpg"
@@ -1671,15 +1567,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 197,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "black-current",
       "name": "Black Current",
       "category": "Dry Fruits & Nuts",
       "description": "Black currants with tangy sweetness and rich antioxidants",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/black-current-1-c6910e07.jpg"
@@ -1703,15 +1597,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 247,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "pepper-cashew",
       "name": "Pepper Cashew",
       "category": "Dry Fruits & Nuts",
       "description": "Pepper-coated cashews delivering sharp, spicy flavor punch",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/pepper-cashew-1-2faa9e22.jpg"
@@ -1735,15 +1627,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 372,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "chilli-cashew",
       "name": "Chilli Garlic Cashew",
       "category": "Dry Fruits & Nuts",
       "description": "Cashews tossed in chilli garlic seasoning with spicy kick",
-      "badge": "New",
       "art": "art-dryfruits",
       "images": [
         "images/uploads/products/chilli-cashew-1-c26c2bdb.jpg"
@@ -1767,15 +1657,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 372,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "malabar-cashew",
       "name": "Malabar Masala Cashew",
       "category": "Dry Fruits & Nuts",
       "description": "Spiced cashews with bold Malabar masala flavor coating",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/malabar-cashew-1-b31e7d48.jpg"
@@ -1799,15 +1687,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 372,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "cheesy-cashew",
       "name": "Cheesy Cashew",
       "category": "Dry Fruits & Nuts",
       "description": "Cheese-flavored cashews with savory, creamy taste profile",
-      "badge": "Best Seller",
       "art": "art-dryfruits",
       "images": [
         "images/uploads/products/cheesy-cashew-1-681907d1.jpg"
@@ -1831,15 +1717,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 397,
-      "unit": "250g"
+      "badge": "Best Seller"
     },
     {
       "id": "roasted-salted-cashew",
       "name": "Roasted & Salted Cashew",
       "category": "Dry Fruits & Nuts",
       "description": "Roasted cashews with salt enhancing rich nutty flavor",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/roasted-salted-cashew-1-92d9b6c8.jpg"
@@ -1863,15 +1747,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 397,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "apricot-apricot",
       "name": "Apricot",
       "category": "Dry Fruits & Nuts",
       "description": "Soft dried apricots with natural sweetness and tangy notes",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/apricot-apricot-1-7e038ea4.jpg"
@@ -1895,15 +1777,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 362,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "classic-cashew",
       "name": "Classic Salted Cashew",
       "category": "Dry Fruits & Nuts",
       "description": "Salted cashews with classic taste and satisfying crunch",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/classic-cashew-1-15ff7dd.jpg"
@@ -1927,15 +1807,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 397,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "rainbow-trail-mix",
       "name": "Rainbow Trail Mix",
       "category": "Dry Fruits & Nuts",
       "description": "Colorful mix of nuts, seeds and dried fruits",
-      "badge": "Best Seller",
       "art": "art-dryfruits",
       "images": [
         "images/uploads/products/rainbow-trail-mix-1-41c3beb9.jpg"
@@ -1959,15 +1837,13 @@
       ],
       "featured": true,
       "inStock": true,
-      "price": 378,
-      "unit": "250g"
+      "badge": "Best Seller"
     },
     {
       "id": "pista-r-usa",
       "name": "Pista (R) USA",
       "category": "Dry Fruits & Nuts",
       "description": "USA pistachios offering consistent quality and crunchy texture",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/pista-r-usa-1-1da7d3c4.jpg"
@@ -1991,15 +1867,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 437,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "pista-r-irani",
       "name": "Pista (R ) Irani",
       "category": "Dry Fruits & Nuts",
       "description": "Irani pistachios with bold flavor and vibrant green kernels",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/pista-r-irani-1-423f3530.jpg"
@@ -2023,15 +1897,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 422,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "macadamia-nuts",
       "name": "Macadamia Nuts",
       "category": "Dry Fruits & Nuts",
       "description": "Macadamia nuts with buttery texture and delicate rich taste",
-      "badge": "New",
       "art": "art-dryfruits",
       "images": [
         "images/uploads/products/macadamia-nuts-1-a93c43c.jpg"
@@ -2055,15 +1927,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 987,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "hazelnut-hazelnut",
       "name": "Hazelnut",
       "category": "Dry Fruits & Nuts",
       "description": "Crunchy hazelnuts with rich, nutty and slightly sweet flavor",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/hazelnut-hazelnut-1-e2db0d67.jpg"
@@ -2087,15 +1957,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 825,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "chestnuts-chestnuts",
       "name": "ChestNuts",
       "category": "Dry Fruits & Nuts",
       "description": "Chestnuts with mild sweetness and soft, starchy texture",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/chestnuts-chestnuts-1-40d2ee7.jpg"
@@ -2119,15 +1987,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 250,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "cashew-w320",
       "name": "Cashew W320",
       "category": "Dry Fruits & Nuts",
       "description": "Popular cashew grade with consistent size and creamy taste",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/cashew-w320-1-b1f612a1.jpg"
@@ -2151,15 +2017,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 297,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "cashew-w240",
       "name": "Cashew  W240",
       "category": "Dry Fruits & Nuts",
       "description": "High-quality cashews offering perfect balance of size and flavor",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/cashew-w240-1-48199f12.jpg"
@@ -2183,15 +2047,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 347,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "cashew-w180",
       "name": "Cashew W180",
       "category": "Dry Fruits & Nuts",
       "description": "Premium whole cashews with large size and rich taste",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/cashew-w180-1-bf576b46.jpg"
@@ -2215,15 +2077,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 472,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "cashew-unpeeled",
       "name": "Cashew Unpeeled",
       "category": "Dry Fruits & Nuts",
       "description": "Unpeeled cashews with natural taste and rustic texture",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/cashew-unpeeled-1-a2c41aac.jpg"
@@ -2247,15 +2107,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 347,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "cashew-split",
       "name": "Cashew Split",
       "category": "Dry Fruits & Nuts",
       "description": "Split cashews ideal for cooking, sweets and daily use",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/cashew-split-1-c54a9f3e.jpg"
@@ -2279,15 +2137,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 297,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "brazil-nuts",
       "name": "Brazil Nuts",
       "category": "Dry Fruits & Nuts",
       "description": "Rich Brazil nuts with creamy texture and high nutrition",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/brazil-nuts-1-70514b1e.jpg"
@@ -2311,15 +2167,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 1372,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "almond-sliced",
       "name": "Almond Sliced",
       "category": "Dry Fruits & Nuts",
       "description": "Thin sliced almonds perfect for garnishing and baking needs",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/almond-sliced-1-695b1adf.jpg"
@@ -2343,15 +2197,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 372,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "almond-powder",
       "name": "Almond Powder",
       "category": "Dry Fruits & Nuts",
       "description": "Finely ground almond powder with rich nutty flavor",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/almond-powder-1-297dbb13.jpg"
@@ -2375,15 +2227,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 397,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "almond-iran",
       "name": "Almond Iran",
       "category": "Dry Fruits & Nuts",
       "description": "Iranian almonds known for rich flavor and premium quality",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/almond-iran-1-37c8e650.jpg"
@@ -2407,15 +2257,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 1050,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "almond-kernel-25-27",
       "name": "Almond Kernel 25/27",
       "category": "Dry Fruits & Nuts",
       "description": "Larger almonds offering richer taste and crunchy texture",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/almond-kernel-25-27-1-82e6474c.jpg"
@@ -2439,15 +2287,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 297,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "almond-kernel-20-22",
       "name": "Almond Kernel 20/22",
       "category": "Dry Fruits & Nuts",
       "description": "Medium almonds with balanced crunch and mild sweetness",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/almond-kernel-20-22-1-b964a583.jpg"
@@ -2471,15 +2317,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 350,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "ambar-dates",
       "name": "Ambar Dates",
       "category": "Dates",
       "description": "Ambar dates with soft flesh and rich sweet taste",
-      "badge": "Best Seller",
       "art": "art-spices",
       "images": [
         "images/uploads/products/ambar-dates-1-3f457119.jpg"
@@ -2503,15 +2347,13 @@
       ],
       "featured": true,
       "inStock": true,
-      "price": 350,
-      "unit": "250g"
+      "badge": "Best Seller"
     },
     {
       "id": "black-dates",
       "name": "Black Dry Dates",
       "category": "Dates",
       "description": "Black dry dates with deep flavor and chewy texture",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/black-dates-1-11ae8a28.jpg"
@@ -2535,15 +2377,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 156,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "dates-kalmi",
       "name": "Dates Kalmi",
       "category": "Dates",
       "description": "Kalmi dates with firm texture and mild natural sweetness",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/dates-kalmi-1-d8bcf027.jpg"
@@ -2567,15 +2407,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 200,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "medjoul-dates",
       "name": "Medjoul King Dates",
       "category": "Dates",
       "description": "King size Medjoul dates with soft, juicy texture",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/medjoul-dates-1-dc8a1faa.jpg"
@@ -2599,15 +2437,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 575,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "medjoul-large",
       "name": "Medjoul Large",
       "category": "Dates",
       "description": "Large Medjoul dates with rich caramel-like taste",
-      "badge": "New",
       "art": "art-dryfruits",
       "images": [
         "images/uploads/products/medjoul-large-1-ab0e93f4.jpg"
@@ -2631,15 +2467,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 497,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "mariyam-dates",
       "name": "Mariyam SP Dates",
       "category": "Dates",
       "description": "Mariyam dates offering balanced sweetness and soft bite",
-      "badge": "New",
       "art": "art-dryfruits",
       "images": [
         "images/uploads/products/mariyam-dates-1-d4be0ee9.jpg"
@@ -2663,15 +2497,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 248,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "mabroom-sp",
       "name": "Mabroom Dates SP",
       "category": "Dates",
       "description": "Mabroom dates with chewy texture and natural sweetness",
-      "badge": "New",
       "art": "art-dryfruits",
       "images": [
         "images/uploads/products/mabroom-sp-1-903a5686.jpg"
@@ -2695,15 +2527,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 322,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "ajwa-dates",
       "name": "Ajwa Dates",
       "category": "Dates",
       "description": "Premium Ajwa dates known for deep flavor and softness",
-      "badge": "New",
       "art": "art-dryfruits",
       "images": [
         "images/uploads/products/ajwa-dates-1-7fda9e4e.jpg"
@@ -2727,15 +2557,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 300,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "safawi-sp",
       "name": "Safawi Dates SP",
       "category": "Dates",
       "description": "Safawi dates with soft texture and rich caramel sweetness",
-      "badge": "New",
       "art": "art-dryfruits",
       "images": [
         "images/uploads/products/safawi-sp-1-795bb2d3.jpg"
@@ -2759,15 +2587,13 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 247,
-      "unit": "250g"
+      "badge": "New"
     },
     {
       "id": "cardamom-7mm",
       "name": "Cardamom 7mm",
       "category": "Spices",
       "description": "Small aromatic pods with sweet, intense flavor profile",
-      "badge": "New",
       "art": "art-spices",
       "images": [
         "images/uploads/products/cardamom-7mm-1-2a8d4ec0.jpg"
@@ -2791,8 +2617,7 @@
       ],
       "featured": false,
       "inStock": true,
-      "price": 975,
-      "unit": "250g"
+      "badge": "New"
     }
   ],
   "reviews": [
