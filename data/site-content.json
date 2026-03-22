@@ -176,8 +176,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "mace-whole",
@@ -206,8 +205,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "cinnamon-roll",
@@ -236,8 +234,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "black-pepper-bold",
@@ -266,8 +263,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "fennel-seed",
@@ -296,8 +292,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "dry-lemon",
@@ -326,8 +321,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "dry-ginger",
@@ -356,8 +350,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "cloves-kerala",
@@ -386,8 +379,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "black-bold",
