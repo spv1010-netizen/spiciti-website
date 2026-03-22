@@ -669,8 +669,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "basil-leafs-dh",
@@ -699,8 +698,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "earl-grey",
@@ -729,8 +727,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "weight-tea",
@@ -788,8 +785,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "rose-buds",
@@ -818,8 +814,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "nettle-green",
@@ -848,8 +843,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "moringa-dust",
@@ -878,8 +872,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "mint-tea",
@@ -908,8 +901,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "men-s-tea",
@@ -938,8 +930,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "lavender-buds",
@@ -968,8 +959,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "kadak-tea",
@@ -998,8 +988,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "jasmine-tea",
@@ -1028,8 +1017,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": false
     },
     {
       "id": "hibiscus-tea",
@@ -1088,8 +1076,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "calcutta-tea",
@@ -1118,8 +1105,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "cinnamon-tea",
@@ -1148,8 +1134,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "chamomile-tea",
@@ -1178,8 +1163,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "cardamom-tea",
@@ -1208,8 +1192,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "blue-pea-tea",
@@ -1238,8 +1221,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "golden-kiwi",
@@ -1268,8 +1250,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "green-kiwi",
@@ -2568,8 +2549,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     },
     {
       "id": "cardamom-7mm",
@@ -2598,8 +2578,7 @@
         }
       ],
       "featured": false,
-      "inStock": true,
-      "badge": "New"
+      "inStock": true
     }
   ],
   "reviews": [
