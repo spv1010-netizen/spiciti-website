@@ -159,17 +159,22 @@
       ],
       "quantityOptions": [
         {
-          "id": "250g-1",
+          "id": "100g-1",
+          "label": "100g",
+          "price": 75
+        },
+        {
+          "id": "250g-2",
           "label": "250g",
           "price": 187
         },
         {
-          "id": "500g-2",
+          "id": "500g-3",
           "label": "500g",
           "price": 375
         },
         {
-          "id": "1kg-3",
+          "id": "1kg-4",
           "label": "1kg",
           "price": 750
         }
