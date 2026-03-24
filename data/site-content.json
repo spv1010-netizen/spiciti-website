@@ -2642,10 +2642,10 @@
   ],
   "coupons": [
     {
-      "id": "fest5-1774334281061",
+      "id": "fest5-1774334658396",
       "code": "FEST5",
       "discountPercent": 5,
-      "minOrderAmount": 1000
+      "minOrderAmount": 0
     }
   ]
 }
