@@ -13,17 +13,17 @@
         {
           "id": "250g-1",
           "label": "250g",
-          "price": 180
+          "price": 175
         },
         {
           "id": "500g-2",
           "label": "500g",
-          "price": 360
+          "price": 350
         },
         {
           "id": "1kg-3",
           "label": "1kg",
-          "price": 720
+          "price": 700
         }
       ],
       "featured": true,
@@ -2584,8 +2584,8 @@
     "instagramUrl": "https://instagram.com/_spiciti",
     "youtubeUrl": "",
     "twitterUrl": "",
-    "showOfferTicker": false,
-    "offerTickerText": ""
+    "showOfferTicker": true,
+    "offerTickerText": "Festive Time offer :  Flat 5% off above 1000. Use code FEST5"
   },
   "about": {
     "storyLabel": "About Us",
@@ -2640,5 +2640,12 @@
       "visible": true
     }
   ],
-  "coupons": []
+  "coupons": [
+    {
+      "id": "fest5-1774334281061",
+      "code": "FEST5",
+      "discountPercent": 5,
+      "minOrderAmount": 1000
+    }
+  ]
 }
