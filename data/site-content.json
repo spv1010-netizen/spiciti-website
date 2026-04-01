@@ -2645,12 +2645,5 @@
       "visible": true
     }
   ],
-  "coupons": [
-    {
-      "id": "fest5-1774334658396",
-      "code": "FEST5",
-      "discountPercent": 5,
-      "minOrderAmount": 0
-    }
-  ]
+  "coupons": []
 }
