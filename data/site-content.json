@@ -2589,7 +2589,7 @@
     "instagramUrl": "https://instagram.com/_spiciti",
     "youtubeUrl": "",
     "twitterUrl": "",
-    "showOfferTicker": true,
+    "showOfferTicker": false,
     "offerTickerText": "Limited Festive Time offer :  Flat 5% off on all purchases . Use code FEST5"
   },
   "about": {
