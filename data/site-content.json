@@ -2752,5 +2752,12 @@
       "visible": true
     }
   ],
-  "coupons": []
+  "coupons": [
+    {
+      "id": "flat5-1775479441767",
+      "code": "FLAT5",
+      "discountPercent": 5,
+      "minOrderAmount": 0
+    }
+  ]
 }
