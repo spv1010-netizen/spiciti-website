@@ -1,6 +1,74 @@
 {
   "catalog": [
     {
+      "id": "sunflower-seed",
+      "name": "Sunflower Seed",
+      "category": "Dry Fruits",
+      "description": "Crunchy sunflower seeds, rich in healthy fats, vitamin E, and nutrients, perfect for guilt-free snacking.",
+      "art": "art-dryfruits",
+      "images": [
+        "images/uploads/products/sunflower-seed-1-24b87c4c.jpg"
+      ],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 98
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 195
+        },
+        {
+          "id": "750g-3",
+          "label": "750g",
+          "price": 293
+        },
+        {
+          "id": "1kg-4",
+          "label": "1kg",
+          "price": 390
+        }
+      ],
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "id": "pumpkin-seed",
+      "name": "Pumpkin Seed",
+      "category": "Seeds",
+      "description": "Nutrient-dense pumpkin seeds, rich in protein, magnesium, and antioxidants, perfect for healthy snacking.",
+      "art": "art-dryfruits",
+      "images": [
+        "images/uploads/products/pumpkin-seed-1-cecc11ea.jpg"
+      ],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 175
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 350
+        },
+        {
+          "id": "750g-3",
+          "label": "750g",
+          "price": 525
+        },
+        {
+          "id": "1kg-4",
+          "label": "1kg",
+          "price": 700
+        }
+      ],
+      "featured": false,
+      "inStock": true
+    },
+    {
       "id": "fig-medium",
       "name": "FIG MEDIUM",
       "category": "Dry Fruits",
