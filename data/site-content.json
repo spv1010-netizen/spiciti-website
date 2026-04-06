@@ -2758,6 +2758,12 @@
       "code": "FLAT5",
       "discountPercent": 5,
       "minOrderAmount": 0
+    },
+    {
+      "id": "flat2-5-1775481826502",
+      "code": "FLAT2.5",
+      "discountPercent": 2.5,
+      "minOrderAmount": 0
     }
   ]
 }
