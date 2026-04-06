@@ -1,6 +1,40 @@
 {
   "catalog": [
     {
+      "id": "fig-medium",
+      "name": "FIG MEDIUM",
+      "category": "Dry Fruits",
+      "description": "Naturally sweet dried figs, rich in fiber and nutrients, ideal for health-conscious daily snacking",
+      "art": "art-biryani",
+      "images": [
+        "images/uploads/products/fig-medium-1-aa7c1967.jpg"
+      ],
+      "quantityOptions": [
+        {
+          "id": "250g-1",
+          "label": "250g",
+          "price": 450
+        },
+        {
+          "id": "500g-2",
+          "label": "500g",
+          "price": 900
+        },
+        {
+          "id": "750g-3",
+          "label": "750g",
+          "price": 1350
+        },
+        {
+          "id": "1kg-4",
+          "label": "1kg",
+          "price": 1800
+        }
+      ],
+      "featured": false,
+      "inStock": true
+    },
+    {
       "id": "kashmiri-chilly-powder",
       "name": "Kashmiri Chilly Powder",
       "category": "MASALAS",
@@ -72,7 +106,7 @@
         {
           "id": "250g-1",
           "label": "250g",
-          "price": 587
+          "price": 588
         },
         {
           "id": "500g-2",
@@ -80,7 +114,12 @@
           "price": 1175
         },
         {
-          "id": "1kg-3",
+          "id": "750g-3",
+          "label": "750g",
+          "price": 1763
+        },
+        {
+          "id": "1kg-4",
           "label": "1kg",
           "price": 2350
         }
