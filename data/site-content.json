@@ -2764,6 +2764,12 @@
       "code": "FLAT2.5",
       "discountPercent": 2.5,
       "minOrderAmount": 0
+    },
+    {
+      "id": "ihrd03-1775637072045",
+      "code": "IHRD03",
+      "discountPercent": 5,
+      "minOrderAmount": 1000
     }
   ]
 }
