@@ -1,6 +1,46 @@
 {
   "catalog": [
     {
+      "id": "garam-masala",
+      "name": "Garam Masala",
+      "category": "Masalas",
+      "description": "Freshly ground, small-batch garam masala made from carefully selected whole spices, delivering rich aroma, bold flavor, and a pure, preservative-free experience.",
+      "art": "art-biryani",
+      "images": [
+        "images/uploads/products/garam-masala-1-ba79e06a.jpg"
+      ],
+      "quantityOptions": [
+        {
+          "id": "100g-1",
+          "label": "100g",
+          "price": 149
+        },
+        {
+          "id": "250g-2",
+          "label": "250g",
+          "price": 349
+        },
+        {
+          "id": "500g-3",
+          "label": "500g",
+          "price": 649
+        },
+        {
+          "id": "750g-4",
+          "label": "750g",
+          "price": 949
+        },
+        {
+          "id": "1kg-5",
+          "label": "1kg",
+          "price": 1199
+        }
+      ],
+      "featured": true,
+      "inStock": true,
+      "badge": "New"
+    },
+    {
       "id": "sunflower-seed",
       "name": "Sunflower Seed",
       "category": "Dry Fruits",
