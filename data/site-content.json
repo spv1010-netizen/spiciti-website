@@ -2496,7 +2496,7 @@
       "name": "Medjoul King Dates",
       "category": "Dates",
       "description": "King size Medjoul dates with soft, juicy texture",
-      "art": "art-spices",
+      "art": "art-saffron",
       "images": [
         "images/uploads/products/medjoul-dates-1-dc8a1faa.jpg"
       ],
@@ -2518,7 +2518,7 @@
         }
       ],
       "featured": false,
-      "inStock": true
+      "inStock": false
     },
     {
       "id": "medjoul-large",
