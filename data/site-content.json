@@ -2736,8 +2736,8 @@
     "instagramUrl": "https://instagram.com/_spiciti",
     "youtubeUrl": "",
     "twitterUrl": "",
-    "showOfferTicker": false,
-    "offerTickerText": "Limited Festive Time offer :  Flat 5% off on all purchases . Use code FEST5"
+    "showOfferTicker": true,
+    "offerTickerText": "Limited Vishu Time offer :  Flat 5% off on all purchases above 1000 . Use code FEST5"
   },
   "about": {
     "storyLabel": "About Us",
@@ -2814,6 +2814,12 @@
     {
       "id": "vishu5-1776148307879",
       "code": "VISHU5",
+      "discountPercent": 5,
+      "minOrderAmount": 1000
+    },
+    {
+      "id": "fest5-1776148468907",
+      "code": "FEST5",
       "discountPercent": 5,
       "minOrderAmount": 1000
     }
