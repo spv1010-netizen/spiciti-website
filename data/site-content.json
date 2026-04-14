@@ -232,7 +232,7 @@
           "price": 2350
         }
       ],
-      "featured": true,
+      "featured": false,
       "inStock": true,
       "badge": "Best Seller"
     },
@@ -2496,7 +2496,7 @@
       "name": "Medjoul King Dates",
       "category": "Dates",
       "description": "King size Medjoul dates with soft, juicy texture",
-      "art": "art-saffron",
+      "art": "art-spices",
       "images": [
         "images/uploads/products/medjoul-dates-1-dc8a1faa.jpg"
       ],
@@ -2518,7 +2518,7 @@
         }
       ],
       "featured": false,
-      "inStock": false
+      "inStock": true
     },
     {
       "id": "medjoul-large",
@@ -2808,6 +2808,12 @@
     {
       "id": "ihrd03-1775637072045",
       "code": "IHRD03",
+      "discountPercent": 5,
+      "minOrderAmount": 1000
+    },
+    {
+      "id": "vishu5-1776148307879",
+      "code": "VISHU5",
       "discountPercent": 5,
       "minOrderAmount": 1000
     }
