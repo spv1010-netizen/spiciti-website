@@ -155,17 +155,17 @@
         {
           "id": "250g-1",
           "label": "250g",
-          "price": 175
+          "price": 248
         },
         {
           "id": "500g-2",
           "label": "500g",
-          "price": 350
+          "price": 495
         },
         {
           "id": "1kg-3",
           "label": "1kg",
-          "price": 700
+          "price": 999
         }
       ],
       "featured": true,
@@ -2736,7 +2736,7 @@
     "instagramUrl": "https://instagram.com/_spiciti",
     "youtubeUrl": "",
     "twitterUrl": "",
-    "showOfferTicker": true,
+    "showOfferTicker": false,
     "offerTickerText": "Limited Vishu Time offer :  Flat 5% off on all purchases above 1000 . Use code FEST5"
   },
   "about": {
